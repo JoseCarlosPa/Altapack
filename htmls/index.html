@@ -118,7 +118,7 @@
  <div class="row my_gradient_bag">
      <div class="col-md-4 text-right" >
          <div class="font_f">
-             <input type="button" class ="btn btn-outline-light"value="VÁLVULA DEGASIFICADORA" onClick="javascript:mostrar_imagen1('imagen')" />
+             <input type="button" class ="btn btn-outline-light"value="VÁLVULA DEGASIFICADORA" onClick="$(this).mostrar_imagen1();"/>
              <img src="img/valve.svg" width="60em">
          </div>
          <br>
@@ -128,7 +128,7 @@
                                                                              
          <br><br>
          <div class="font_f">
-             <input type="button" class ="btn btn-outline-light"value="BOBINAS IMPRESAS" onClick="javascript:mostrar_imagen2('imagen')" />
+             <input type="button" class ="btn btn-outline-light"value="BOBINAS IMPRESAS" onClick="$(this).mostrar_imagen2();"/>
              <img src="img/coil.svg" width="60em">
          </div>
          <br>
@@ -137,7 +137,7 @@
          </div>
          <br><br>
          <div class="font_f">
-             <input type="button" class ="btn btn-outline-light"value="BOLSEO" onClick="javascript:mostrar_imagen3('imagen')" />
+             <input type="button" class ="btn btn-outline-light"value="BOLSEO" onClick="$(this).mostrar_imagen3();" />
              <img src="img/shopping-bag.svg" width="60em">
          </div>
          <br>
@@ -146,7 +146,7 @@
          </div>
          <br><br>
          <div class="font_f">
-             <input type="button" class ="btn btn-outline-light"value="DISEÑO" onClick="javascript:mostrar_imagen4('imagen')" />
+             <input type="button" class ="btn btn-outline-light"value="DISEÑO" onClick="$(this).mostrar_imagen4();" />
              <img src="img/layers.svg" width="60em">
          </div>
          <br>
@@ -159,13 +159,20 @@
     <div class="col-md-4" id ="imagen">
 
         <br><br><br><br><br>
-        <!--<img src="img/fondos/8.png" width="100%" height="65%">-->
+        <img id="imagen1" src="img/fondos/5.png" width="400em" height="400em"/>
+        <img id="imagen2" src="img/fondos/1.png" width="400em" height="400em" style="display:none;"/>
+        <img id="imagen3" src="img/fondos/4.png" width="400em" height="400em" style="display:none;"/>
+        <img id="imagen4" src="img/fondos/7.png" width="400em" height="400em" style="display:none;"/>
+        <img id="imagen5" src="img/fondos/8.png" width="400em" height="400em" style="display:none;"/>
+        <img id="imagen6" src="img/fondos/6.png" width="400em" height="400em" style="display:none;"/>
+        <img id="imagen7" src="img/fondos/2.png" width="400em" height="400em" style="display:none;"/>
+        <img id="imagen8" src="img/fondos/3.png" width="400em" height="400em" style="display:none;"/>
     </div>
      <!--FIn imagen del centro-->
     <div class="col-md-4 text-left">
         <div class="font_f">
             <img src="img/chisel.svg" width="60em">
-            <input type="button" class ="btn btn-outline-light"value="GALVANOPLASTIA Y GRABADO " onClick="javascript:mostrar_imagen5('imagen')" />
+            <input type="button" class ="btn btn-outline-light"value="GALVANOPLASTIA Y GRABADO " onClick="$(this).mostrar_imagen5();" />
          </div>
          <br>
          <div class="font_g">
@@ -177,7 +184,7 @@
          <br><br>
          <div class="font_f"> 
              <img src="img/printer.svg" width="60em">
-             <input type="button" class ="btn btn-outline-light"value="IMPRESIÓN Y CORTE" onClick="javascript:mostrar_imagen6('imagen')" />
+             <input type="button" class ="btn btn-outline-light"value="IMPRESIÓN Y CORTE" onClick="$(this).mostrar_imagen6();" />
          </div>
          <br>
          <div class="font_g">
@@ -188,7 +195,7 @@
          <br><br>
          <div class="font_f">
              <img src="img/shield.svg" width="60em">
-             <input type="button" class ="btn btn-outline-light"value="CALIDAD" onClick="javascript:mostrar_imagen7('imagen')" />
+             <input type="button" class ="btn btn-outline-light"value="CALIDAD" onClick="$(this).mostrar_imagen7();" />
          </div>
          <br>
          <div class="font_g">
@@ -199,7 +206,7 @@
          <br><br>
          <div class="font_f"> 
             <img src="img/truck.svg" width="60em">
-             <input type="button" class ="btn btn-outline-light"value="ALMACENAMIENTO Y EMBARQUE" onClick="javascript:mostrar_imagen8('imagen')" />
+             <input type="button" class ="btn btn-outline-light"value="ALMACENAMIENTO Y EMBARQUE" onClick="$(this).mostrar_imagen8();" />
          </div>
          <br>
          <div class="font_g">
