@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da71cea-dbeb-4524-8e1d-6d90114a8498" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/altapack.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/altapack.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmls/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmls/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/index.html" afterDir="false" />
@@ -30,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/htmls/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="327">
+              <caret line="307" column="36" lean-forward="true" selection-start-line="307" selection-start-column="36" selection-end-line="307" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#img#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
@@ -46,10 +42,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htmls/footer.html">
+        <entry file="file://$PROJECT_DIR$/htmls/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1589">
-              <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
+            <state relative-caret-position="547">
+              <caret line="50" column="51" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -68,6 +64,7 @@
     <findStrings>
       <find>+</find>
       <find>Mód</find>
+      <find>font_11</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,9 +81,9 @@
         <option value="$PROJECT_DIR$/productos.php" />
         <option value="$PROJECT_DIR$/htmls/prodcutos.html" />
         <option value="$PROJECT_DIR$/htmls/productos.html" />
+        <option value="$PROJECT_DIR$/htmls/footer.html" />
         <option value="$PROJECT_DIR$/css/altapack.css" />
         <option value="$PROJECT_DIR$/htmls/header.html" />
-        <option value="$PROJECT_DIR$/htmls/footer.html" />
         <option value="$PROJECT_DIR$/htmls/index.html" />
       </list>
     </option>
@@ -190,7 +187,7 @@
       <workItem from="1562714645572" duration="3978000" />
       <workItem from="1563025780611" duration="1365000" />
       <workItem from="1563120534688" duration="3639000" />
-      <workItem from="1563204274893" duration="1179000" />
+      <workItem from="1563204274893" duration="2250000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrego el nav bar y se corrigo los colores&#10;falta corregir el orden y las fuentes">
       <created>1560654828483</created>
@@ -203,7 +200,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34550000" />
+    <option name="totallyTimeSpent" value="35621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -308,20 +305,6 @@
     <entry file="file://$PROJECT_DIR$/img/productos/1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/altapack.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="347" selection-start-line="347" selection-end-line="347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htmls/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/fondos/7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -329,15 +312,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/fondos/5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/fondos/4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/fondos/3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/fondos/2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/fondos/1.png">
@@ -348,15 +322,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/htmls/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1589">
-          <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
+        <state relative-caret-position="429">
+          <caret line="156" column="8" lean-forward="true" selection-start-line="156" selection-start-column="8" selection-end-line="156" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/fondos/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/fondos/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/fondos/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/altapack.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmls/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htmls/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="327">
+          <caret line="307" column="36" lean-forward="true" selection-start-line="307" selection-start-column="36" selection-end-line="307" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#img#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />

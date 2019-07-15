@@ -4,7 +4,7 @@
 }
 .container {
     margin: 0 auto;
-    max-width: 50em;
+    max-width: 60em;
 }
 
 .container_footer {
@@ -152,7 +152,7 @@
 
 .font_11{
     font-family: Montserrat;
-    font-size: 0.8em !important;
+    font-size: 1.2em !important;
     color: black;
     font-weight: 1000;
     letter-spacing: 0.1em;
@@ -229,7 +229,7 @@
 
 .font_12{
     font-family: Montserrat;
-    font-size: 0.7em;
+    font-size: 1em;
     color: #747E80;
     font-weight: 400;
     text-align: justify;
