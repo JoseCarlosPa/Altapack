@@ -1,6 +1,6 @@
 .container_productos {
     margin: 0 auto;
-    max-width: 60em;
+    max-width: 70%;
 }
 .container {
     margin: 0 auto;
@@ -295,7 +295,7 @@
 }
 
 .publicidad{
-    background: #F5F5F5;
+    background: #5E5E5E;
 
 }
 
@@ -342,6 +342,28 @@ footer{
 
 .fondo{
     background-color: #F0F0F0;
-    align-items: center;
 }
+
+.md-outline.select-wrapper+label {
+    top: .5em !important;
+    z-index: 2 !important;
+}
+
+.font_19{
+    margin: 0 auto;
+    max-width: 70%;
+    font-family: Montserrat;
+    font-size: 200%;
+    color: #ffffff;
+    font-weight: bold;
+}
+.font_19_1{
+    margin: 0 auto;
+    max-width: 70%;
+    font-family: Montserrat;
+    font-size: 150%;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 
