@@ -295,7 +295,7 @@
 }
 
 .publicidad{
-    background: #5E5E5E;
+    background: #949494;
 
 }
 
@@ -366,4 +366,36 @@ footer{
     font-weight: bold;
 }
 
+.boton_publicidad{
+    float: right;
+    width:10em;
+    height:4em;
+    background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#237794, #237794); /* Standard syntax */
+    border-radius: 19px 19px 19px 19px;
+    -moz-border-radius: 19px 19px 19px 19px;
+    -webkit-border-radius: 19px 19px 19px 19px;
+    color: white;
+    font-weight: bold;
+    border: 0px solid #000000;
+
+}
+.boton_contacto{
+
+    width:10em;
+    height:4em;
+    background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#237794, #237794); /* Standard syntax */
+    border-radius: 19px 19px 19px 19px;
+    -moz-border-radius: 19px 19px 19px 19px;
+    -webkit-border-radius: 19px 19px 19px 19px;
+    color: white;
+    font-weight: bold;
+    border: 0px solid #000000;
+
+}
 
