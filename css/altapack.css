@@ -1,3 +1,4 @@
+
 .container_productos {
     margin: 0 auto;
     max-width: 70%;
@@ -20,12 +21,16 @@
 }
 
 .navbar_altapack{
-    float: center;
-    text-align: center;
     margin-right: auto 0;
     margin-left:auto 0;
     margin: auto;
-    width: 50%;
+    width: 80%;
+}
+.text_navbar{
+    margin: 0 auto;
+    padding-left: 55%;
+    padding-right: 0%;
+    text-align: left;
 }
 
 .navbar-collapse{
