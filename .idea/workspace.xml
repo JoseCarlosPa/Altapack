@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da71cea-dbeb-4524-8e1d-6d90114a8498" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/htmls/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/productos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/info.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,17 +23,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htmls/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1884">
+            <state relative-caret-position="4815">
               <caret line="321" column="35" selection-start-line="321" selection-start-column="35" selection-end-line="321" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htmls/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htmls/productos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="144" column="121" selection-start-line="144" selection-start-column="121" selection-end-line="144" selection-end-column="121" />
+            <state relative-caret-position="354">
+              <caret line="459" column="52" lean-forward="true" selection-start-line="459" selection-start-column="52" selection-end-line="459" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#!!top" expanded="true" />
@@ -48,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/htmls/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="174">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -103,11 +112,11 @@
         <option value="$PROJECT_DIR$/htmls/prodcutos.html" />
         <option value="$PROJECT_DIR$/htmls/index.html" />
         <option value="$PROJECT_DIR$/htmls/footer.html" />
-        <option value="$PROJECT_DIR$/htmls/header.html" />
         <option value="$PROJECT_DIR$/info.php" />
         <option value="$PROJECT_DIR$/css/altapack.css" />
-        <option value="$PROJECT_DIR$/htmls/info.html" />
+        <option value="$PROJECT_DIR$/htmls/header.html" />
         <option value="$PROJECT_DIR$/htmls/productos.html" />
+        <option value="$PROJECT_DIR$/htmls/info.html" />
       </list>
     </option>
   </component>
@@ -211,7 +220,7 @@
       <workItem from="1563025780611" duration="1365000" />
       <workItem from="1563120534688" duration="3639000" />
       <workItem from="1563204274893" duration="3640000" />
-      <workItem from="1563239628770" duration="10650000" />
+      <workItem from="1563239628770" duration="10929000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrego el nav bar y se corrigo los colores&#10;falta corregir el orden y las fuentes">
       <created>1560654828483</created>
@@ -224,7 +233,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47661000" />
+    <option name="totallyTimeSpent" value="47940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -356,16 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htmls/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding>
-            <element signature="e#1013#1019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/info.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -380,24 +379,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htmls/info.html">
+    <entry file="file://$PROJECT_DIR$/htmls/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        <state relative-caret-position="4815">
+          <caret line="321" column="35" selection-start-line="321" selection-start-column="35" selection-end-line="321" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htmls/index.html">
+    <entry file="file://$PROJECT_DIR$/htmls/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1884">
-          <caret line="321" column="35" selection-start-line="321" selection-start-column="35" selection-end-line="321" selection-end-column="35" />
+        <state relative-caret-position="144">
+          <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htmls/productos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="144" column="121" selection-start-line="144" selection-start-column="121" selection-end-line="144" selection-end-column="121" />
+        <state relative-caret-position="354">
+          <caret line="459" column="52" lean-forward="true" selection-start-line="459" selection-start-column="52" selection-end-line="459" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#!!top" expanded="true" />
@@ -408,6 +407,13 @@
             <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#4;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#4;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmls/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
         </state>
       </provider>
     </entry>
