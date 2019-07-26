@@ -432,9 +432,19 @@ footer{
 }
 
 .radioColor1{
-
     background-color: #f58442;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
+
 .radioColor2{
 
     background-color: #949494;
@@ -466,4 +476,404 @@ and (min-device-width: 481px) {
         display:none;
     }
 
+}
+/* custom radio */
+.radio1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* hide the browser's default radio button */
+.radio1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* create custom radio */
+.radio1 .check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+/* on mouse-over, add border color */
+.radio1:hover input ~ .check {
+    border: 2px solid #000000;
+}
+
+/* add background color when the radio is checked */
+.radio1 input:checked ~ .check {
+    background-color: #000000;
+    border:none;
+}
+
+/* create the radio and hide when not checked */
+.radio1 .check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* show the radio when checked */
+.radio1 input:checked ~ .check:after {
+    display: block;
+}
+
+/* radio style */
+.radio1 .check:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* ----------Radio No.2-----------*/
+/* custom radio */
+.radio2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* hide the browser's default radio button */
+.radio2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* create custom radio */
+.radio2 .check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+/* on mouse-over, add border color */
+.radio2:hover input ~ .check {
+    border: 2px solid #68dbff;
+}
+
+/* add background color when the radio is checked */
+.radio2 input:checked ~ .check {
+    background-color: #68dbff;
+    border:none;
+}
+
+/* create the radio and hide when not checked */
+.radio2 .check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* show the radio when checked */
+.radio2 input:checked ~ .check:after {
+    display: block;
+}
+
+/* radio style */
+.radio2 .check:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* ----------Radio No.3-----------*/
+/* custom radio */
+.radio3 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* hide the browser's default radio button */
+.radio3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* create custom radio */
+.radio3 .check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+/* on mouse-over, add border color */
+.radio3:hover input ~ .check {
+    border: 2px solid #fcff4c;
+}
+
+/* add background color when the radio is checked */
+.radio3 input:checked ~ .check {
+    background-color: #fcff4c;
+    border:none;
+}
+
+/* create the radio and hide when not checked */
+.radio3 .check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* show the radio when checked */
+.radio3 input:checked ~ .check:after {
+    display: block;
+}
+
+/* radio style */
+.radio3 .check:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* ----------Radio No.4-----------*/
+/* custom radio */
+.radio4 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* hide the browser's default radio button */
+.radio4 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* create custom radio */
+.radio4 .check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+/* on mouse-over, add border color */
+.radio4:hover input ~ .check {
+    border: 2px solid #ffc122;
+}
+
+/* add background color when the radio is checked */
+.radio4 input:checked ~ .check {
+    background-color: #ffc122;
+    border:none;
+}
+
+/* create the radio and hide when not checked */
+.radio4 .check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* show the radio when checked */
+.radio4 input:checked ~ .check:after {
+    display: block;
+}
+
+/* radio style */
+.radio4 .check:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* ----------Radio No.5-----------*/
+/* custom radio */
+.radio5 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* hide the browser's default radio button */
+.radio5 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* create custom radio */
+.radio5 .check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+/* on mouse-over, add border color */
+.radio5:hover input ~ .check {
+    border: 2px solid #ffc122;
+}
+
+/* add background color when the radio is checked */
+.radio5 input:checked ~ .check {
+    background-color: #ffc122;
+    border:none;
+}
+
+/* create the radio and hide when not checked */
+.radio5 .check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* show the radio when checked */
+.radio5 input:checked ~ .check:after {
+    display: block;
+}
+
+/* radio style */
+.radio5 .check:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* ----------Radio No.6-----------*/
+/* custom radio */
+.radio6 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* hide the browser's default radio button */
+.radio6 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* create custom radio */
+.radio6 .check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+/* on mouse-over, add border color */
+.radio6:hover input ~ .check {
+    border: 2px solid #b4b4b4;
+}
+
+/* add background color when the radio is checked */
+.radio6 input:checked ~ .check {
+    background-color: #b4b4b4;
+    border:none;
+}
+
+/* create the radio and hide when not checked */
+.radio6 .check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* show the radio when checked */
+.radio6 input:checked ~ .check:after {
+    display: block;
+}
+
+/* radio style */
+.radio6 .check:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
 }
