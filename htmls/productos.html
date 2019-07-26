@@ -16,7 +16,7 @@
 
 <br>
 <br>
-
+<!--ProductoNo.1-->
 <div class="row container_productos ">
     <div class="col-sm-12">
         <div class="row">
@@ -46,8 +46,8 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <p><input type=image src="img/productos/2b.png" height="100%" width="65%"
-                                  style="padding-top: 6%" onClick="$(this).mostrar_imagen1_g()"/></p>
+                        <p><input type=image src="img/productos/2.png" height="100%" width="65%"
+                                  style="padding-top: 6%" onClick="$(this).mostrar_imagen6_g()"/></p>
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@
 
                     <div class="col-sm-1">
                         <p><input type=image src="img/productos/2b.png" height="100%" width="40%"
-                                  style="padding-top: 6%" onClick="$(this).mostrar_imagen1_g()"/></p>
+                                  style="padding-top: 6%" onClick="$(this).mostrar_imagen6_g()"/></p>
                     </div>
 
                 </div>
@@ -77,18 +77,17 @@
             <!--Fin de area de imagenes-->
 
             <!--Imagen grande-->
-            <div class="col-sm-4  text-center" id="imagen">
+            <div class="col-sm-4  text-center" id="imagen2">
 
-                <p><img id="img_g_1" src="img/productos/SUP-Kraft.gif" height="100%" width="100%"></p>
-                <p><img id="img_g_2" src="img/productos/3.png" width="100%" height="100%" style="display:none;"/>
-                <p>
-                <p><img id="img_g_3" src="img/productos/4.png" width="100%" height="100%" style="display:none;"/></p>
-                <p><img id="img_g_4" src="img/productos/SUP-Blanca2.gif" height="100%" width="100%"
-                        style="display:none;"></p>
-                <p><img id="img_g_5" src="img/productos/SUP-Dorada.gif" height="100%" width="100%"
-                        style="display:none;"></p>
-                <p><img id="img_g_6" src="img/productos/SUP-Negra.gif" height="100%" width="100%" style="display:none;">
-                </p>
+                <p><img id="img_g_1" src="img/productos/SUP-Negra.gif" height="100%" width="100%"></p>
+                <p><img id="img_g_2" src="img/productos/3b.png" width="100%" height="100%" style="display:none;"/><p>
+                <p><img id="img_g_3" src="img/productos/4b.png" width="100%" height="100%" style="display:none;"/></p>
+                <!--Gifts de radio buttons-->
+                <!--Negro im_g_1-->
+                <p><img id="img_g_4" src="img/productos/SUP-Blanca2.gif" height="100%" width="100%" style="display:none;"></p>
+                <p><img id="img_g_5" src="img/productos/SUP-Dorada.gif" height="100%" width="100%" style="display:none;"></p>
+                <p><img id="img_g_6" src="img/productos/SUP-Kraft.gif" height="100%" width="100%" style="display:none;"></p>
+                <p><img id="img_g_7" src="img/productos/SUP-Plateada.gif" height="100%" width="100%" style="display:none;"></p>
 
             </div>
             <!--Fin Imagen grande-->
@@ -110,41 +109,22 @@
                     <div class="col-sm-1">
 
                     </div>
-                    <div class="col-sm-11">
+                    <div class="col-sm-10">
                         <div class="row">
-                            <div class="col-md-7 select-outline">
+                            <div class="col-sm-7 select-outline">
 
                                 <select class="form-control">
                                     <option>Chica</option>
                                     <option>Mediana</option>
                                     <option>Grande</option>
                                 </select>
-
+                            </div>
+                            <div class="col-sm-1">
 
                             </div>
-                            <div class="col-md-5 ">
-                                Color:
-                                <br>
-                                <div class="form-check form-check-inline radioColor1">
-                                    <input class="form-check-input " type="radio" name="inlineRadioOptions"
-                                           id="inlineRadio1" value="option1" onClick="$(this).mostrar_imagen1_g()"
-                                           checked>
-                                    <label class="form-check-label" for="inlineRadio1"></label>
-                                </div>
-                                <div class="form-check form-check-inline radioColor2">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                           id="inlineRadio2" value="option1" onClick="$(this).mostrar_imagen4_g()">
-                                    <label class="form-check-label" for="inlineRadio2"></label>
-                                </div>
-                                <div class="form-check form-check-inline radioColor3">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                           id="inlineRadio3" value="option1" onClick="$(this).mostrar_imagen5_g()">
-                                    <label class="form-check-label" for="inlineRadio3"></label>
-                                </div>
-                                <div class="form-check form-check-inline radioColor4">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                           id="inlineRadio4" value="option1" onClick="$(this).mostrar_imagen6_g()">
-                                    <label class="form-check-label" for="inlineRadio4"></label>
+                            <div class="col-sm-2">
+                                <div class="row">
+                                    <p>Color:</p>
                                 </div>
 
                             </div>
@@ -152,8 +132,40 @@
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-sm-7">
+
+                    </div>
+                    <div class="col-sm-5">
+                        <!--Radio Buttons-->
+                        <div class="row">
+                            <label class="radio1">
+                                <input type="radio" checked="checked" name="radio1" onClick="$(this).mostrar_imagen1_g()">
+                                <span class="check"></span>
+                            </label>
+                            <label class="radio2">
+                                <input type="radio"  checked="checked"name="radio2"onClick="$(this).mostrar_imagen4_g()">
+                                <span class="check"></span>
+                            </label>
+                            <label class="radio3">
+                                <input type="radio"  checked="checked"name="radio3"onClick="$(this).mostrar_imagen5_g()">
+                                <span class="check"></span>
+                            </label>
+                            <label class="radio4">
+                                <input type="radio" checked="checked"name="radio4"onClick="$(this).mostrar_imagen6_g()">
+                                <span class="check"></span>
+                            </label>
+                            <label class="radio6">
+                                <input type="radio"  checked="checked"name="radio6"onClick="$(this).mostrar_imagen7_g()">
+                                <span class="check"></span>
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+
                 <!--Descripcion -->
-                <br><br>
+
                 <div class="row">
                     <div class="col-sm-1"></div>
                     <div class="col-sm-10">
@@ -194,10 +206,208 @@
 
 </div>
 
+
+
 <br>
 <hr width="100%">
 <br>
 
+<!-------------------Producto No.2------------------>
+<!--ProductoNo.1-->
+<div class="row container_productos ">
+    <div class="col-sm-12">
+        <div class="row">
+            <div class="col-sm-12 text-left font_18 ">
+                <p>BOLSA CUATRO SELLOS</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <!--Area para imagenes-->
+
+            <div class="col-sm-2 image_prodcuto">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p><input type=image src="img/productos/3b.png" height="100%" width="65%"
+                                  style="padding-top: 0%" onClick="$(this).mostrar_imagen2_g();"/></p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p><input type=image src="img/productos/4b.png" height="100%" width="65%"
+                                  style="padding-top: 6%" onClick="$(this).mostrar_imagen3_g()"/></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p><input type=image src="img/productos/2.png" height="100%" width="65%"
+                                  style="padding-top: 6%" onClick="$(this).mostrar_imagen6_g()"/></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-2 image_prodcuto_movil">
+
+                <div class="row">
+                    <div class="col-sm-1">
+                        <p><input type=image src="img/productos/3b.png" height="100%" width="40%"
+                                  style="padding-top: 0%" onClick="$(this).mostrar_imagen2_g();"/></p>
+                    </div>
+
+                    <div class="col-sm-1">
+                        <p><input type=image src="img/productos/4b.png" height="100%" width="40%"
+                                  style="padding-top: 6%" onClick="$(this).mostrar_imagen3_g()"/></p>
+                    </div>
+
+                    <div class="col-sm-1">
+                        <p><input type=image src="img/productos/2b.png" height="100%" width="40%"
+                                  style="padding-top: 6%" onClick="$(this).mostrar_imagen6_g()"/></p>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--Fin de area de imagenes-->
+
+            <!--Imagen grande-->
+            <div class="col-sm-4  text-center" id="imagen2">
+
+                <p><img id="img_g_1-2" src="img/productos/SUP-Negra.gif" height="100%" width="100%"></p>
+                <p><img id="img_g_2-2" src="img/productos/3b.png" width="100%" height="100%" style="display:none;"/><p>
+                <p><img id="img_g_3-2" src="img/productos/4b.png" width="100%" height="100%" style="display:none;"/></p>
+                <!--Gifts de radio buttons-->
+                <!--Negro im_g_1-->
+                <p><img id="img_g_4-2" src="img/productos/SUP-Blanca2.gif" height="100%" width="100%" style="display:none;"></p>
+                <p><img id="img_g_5-2" src="img/productos/SUP-Dorada.gif" height="100%" width="100%" style="display:none;"></p>
+                <p><img id="img_g_6-2" src="img/productos/SUP-Kraft.gif" height="100%" width="100%" style="display:none;"></p>
+                <p><img id="img_g_7-2" src="img/productos/SUP-Plateada.gif" height="100%" width="100%" style="display:none;"></p>
+
+            </div>
+            <!--Fin Imagen grande-->
+
+            <!--Titulo y label-->
+            <div class="col-sm-6 ">
+
+                <!--Tamaños-->
+                <div class="row">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-sm-10">
+                        <p>Tamaños disponibles</p>
+                    </div>
+                </div>
+
+                <!--Select label-->
+                <div class="row">
+                    <div class="col-sm-1">
+
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="row">
+                            <div class="col-sm-7 select-outline">
+
+                                <select class="form-control">
+                                    <option>Chica</option>
+                                    <option>Mediana</option>
+                                    <option>Grande</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-1">
+
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="row">
+                                    <p>Color:</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-7">
+
+                    </div>
+                    <div class="col-sm-5">
+                        <!--Radio Buttons-->
+                        <div class="row">
+                            <label class="radio1">
+                                <input type="radio" checked="checked" name="radio1" onClick="$(this).mostrar_imagen1_g()">
+                                <span class="check"></span>
+                            </label>
+                            <label class="radio2">
+                                <input type="radio"  checked="checked"name="radio2"onClick="$(this).mostrar_imagen4_g()">
+                                <span class="check"></span>
+                            </label>
+                            <label class="radio3">
+                                <input type="radio"  checked="checked"name="radio3"onClick="$(this).mostrar_imagen5_g()">
+                                <span class="check"></span>
+                            </label>
+                            <label class="radio4">
+                                <input type="radio" checked="checked"name="radio4"onClick="$(this).mostrar_imagen6_g()">
+                                <span class="check"></span>
+                            </label>
+                            <label class="radio6">
+                                <input type="radio"  checked="checked"name="radio6"onClick="$(this).mostrar_imagen7_g()">
+                                <span class="check"></span>
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Descripcion -->
+
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <p>Descripcion</p>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-0"></div>
+                    <div class="col-sm-12">
+                        <ul>
+                            <li>150mm x 220mm + 90mm de fondo</li>
+                            <li>Laminación BOPPMAT + METPET + LLDPE</li>
+                            <li>Zipper</li>
+                            <li>Válvula desgasificadora (variable)</li>
+                            <li>Área de Impresión</li>
+                            <li>Peso?</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 ">
+                        <a href="info.php">
+                            <button type="button" class="boton_publicidad">Más Información</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+<br>
+<hr width="100%">
+<br>
 <div class="publicidad">
     <div class="row text-center ">
 
