@@ -1,10 +1,16 @@
+
+
+.container_info {
+    margin: 0 auto;
+    max-width: 80%;
+}
 .container_productos {
     margin: 0 auto;
-    max-width: 60em;
+    max-width: 70%;
 }
 .container {
     margin: 0 auto;
-    max-width: 50em;
+    max-width: 60em;
 }
 
 
@@ -15,12 +21,16 @@
 }
 
 .navbar_altapack{
-    float: center;
-    text-align: center;
     margin-right: auto 0;
     margin-left:auto 0;
     margin: auto;
-    width: 50%;
+    width: 80%;
+}
+.text_navbar{
+    margin: 0 auto;
+    padding-left: 55%;
+    padding-right: 0%;
+    text-align: left;
 }
 
 .navbar-collapse{
@@ -147,7 +157,7 @@
 
 .font_11{
     font-family: Montserrat;
-    font-size: 0.8em !important;
+    font-size: 1.2em !important;
     color: black;
     font-weight: 1000;
     letter-spacing: 0.1em;
@@ -224,7 +234,7 @@
 
 .font_12{
     font-family: Montserrat;
-    font-size: 0.7em;
+    font-size: 1em;
     color: #747E80;
     font-weight: 400;
     text-align: justify;
@@ -290,12 +300,12 @@
 }
 
 .publicidad{
-    background: #F5F5F5;
+    background: url(../img/Base.svg) no-repeat center top;
 
 }
 
 footer{
-    background: #252525;
+    background: #242424;
 
 }
 
@@ -339,9 +349,7 @@ footer{
 
 .fondo{
     background-color: #F0F0F0;
-    align-items: center;
 }
-
 
 @media screen 
  and (max-device-width: 480px) 
@@ -395,10 +403,10 @@ footer{
     }
     
     
-.container_footer {
-    margin: 0 auto;
-padding-left: 3em;
-}
+    #footer_id {
+        margin: 0 auto;
+    padding-left: 2em;
+    }
     
     
     #textomovil{
@@ -552,12 +560,12 @@ padding-left: 3em;
     }
     
     
-.container_footer {
-    margin: 0 auto;
-    padding-left: 20em;
-    padding-right: 12em;
-    object-fit: fill;
-}
+    #footer_id {
+        margin: 0 auto;
+        padding-left: 18em;
+        padding-right: 12em;
+        object-fit: fill;
+    }
     
     .cuadrado_contacto{
         padding: 5%;
@@ -568,5 +576,117 @@ padding-left: 3em;
         bborder-radius: 11px 11px 11px 11px;
         -moz-border-radius: 11px 11px 11px 11px;
         -webkit-border-radius: 11px 11px 11px 11px;
+    }
+
+.md-outline.select-wrapper+label {
+    top: .5em !important;
+    z-index: 2 !important;
+}
+
+.font_19{
+    margin: 0 auto;
+    max-width: 70%;
+    font-family: Montserrat;
+    font-size: 200%;
+    color: #ffffff;
+    font-weight: bold;
+}
+.font_19_1{
+    margin: 0 auto;
+    max-width: 70%;
+    font-family: Montserrat;
+    font-size: 150%;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.font_20{
+    font-family: Montserrat;
+    font-size: 145%;
+    color: #252525;
+
+    font-weight: bold;
+}
+
+.boton_publicidad{
+    float: right;
+    width:10em;
+    height:4em;
+    background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#237794, #237794); /* Standard syntax */
+    border-radius: 19px 19px 19px 19px;
+    -moz-border-radius: 19px 19px 19px 19px;
+    -webkit-border-radius: 19px 19px 19px 19px;
+    color: white;
+    font-weight: bold;
+    border: 0px solid #000000;
+
+}
+.boton_contacto{
+
+    width:10em;
+    height:4em;
+    background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#237794, #237794); /* Standard syntax */
+    border-radius: 19px 19px 19px 19px;
+    -moz-border-radius: 19px 19px 19px 19px;
+    -webkit-border-radius: 19px 19px 19px 19px;
+    color: white;
+    font-weight: bold;
+    border: 0px solid #000000;
+
+}
+
+.boton_enviar{
+    width:8em;
+    height:2.5em;
+    background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#237794, #237794); /* Standard syntax */
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border: 0px solid #000000;
+}
+
+.radioColor1{
+
+    background-color: #f58442;
+}
+.radioColor2{
+
+    background-color: #949494;
+}
+.radioColor3{
+
+    background-color: rgba(248, 255, 35, 0.7);
+}
+.radioColor4{
+
+    background-color: #000000;
+}
+
+@media screen
+and (max-device-width: 480px)
+and (min-device-width: 0px) {
+    .image_prodcuto_movil{
+        text-align: center;
+    }
+    .image_prodcuto{
+        display: none;
+    }
+}
+
+@media screen
+and (max-device-width: 10000px)
+and (min-device-width: 481px) {
+    .image_prodcuto_movil{
+        display:none;
     }
 }
