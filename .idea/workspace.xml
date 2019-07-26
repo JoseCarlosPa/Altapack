@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0da71cea-dbeb-4524-8e1d-6d90114a8498" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/altapack.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/altapack.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmls/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmls/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/productos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/1b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/3b.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/productos/3b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/4b.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/productos/4b.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +128,7 @@
       <workItem from="1563628682958" duration="25000" />
       <workItem from="1563936556656" duration="3862000" />
       <workItem from="1564002433731" duration="1765000" />
-      <workItem from="1564158342931" duration="4965000" />
+      <workItem from="1564158342931" duration="5573000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrego el nav bar y se corrigo los colores&#10;falta corregir el orden y las fuentes">
       <created>1560654828483</created>
