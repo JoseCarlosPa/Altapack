@@ -1,5 +1,7 @@
 <?php
-class Color_objeto{
+
+class Color_objeto
+{
 
     //Variables tipo string de la clase bolsa
     private $color;
@@ -10,7 +12,8 @@ class Color_objeto{
     private $imagen;
 
     //Construtor de la clase bolsa
-    public function __construct( $color, $tamanio, $medidas,$capacidad,$laminacion,$imagen) {
+    public function __construct($color, $tamanio, $medidas, $capacidad, $laminacion, $imagen)
+    {
         $this->color = $color;
         $this->tamanio = $tamanio;
         $this->medidas = $medidas;
@@ -21,55 +24,152 @@ class Color_objeto{
     }
 
     //Geters y seters de Clase bolsa
-    public function get_color(){
+    public function get_color()
+    {
         return $this->color;
     }
-    public function set_color($color){
+
+    public function set_color($color)
+    {
         $this->color = $color;
     }
 
-    public function get_tamanio(){
+    public function get_tamanio()
+    {
         return $this->tamanio;
     }
-    public function set_tamanio($tamanio){
+
+    public function set_tamanio($tamanio)
+    {
         $this->tamanio = $tamanio;
     }
 
-    public function get_medidas(){
+    public function get_medidas()
+    {
         return $this->medidas;
     }
-    public function set_medidas($medidas){
+
+    public function set_medidas($medidas)
+    {
         $this->medidas = $medidas;
     }
 
-    public function get_capacidad(){
+    public function get_capacidad()
+    {
         return $this->capacidad;
     }
-    public function set_capacidad($capacidad){
+
+    public function set_capacidad($capacidad)
+    {
         $this->capacidad = $capacidad;
     }
 
-    public function get_laminacion(){
+    public function get_laminacion()
+    {
         return $this->laminacion;
     }
-    public function set_laminiacion($laminacion){
+
+    public function set_laminiacion($laminacion)
+    {
         $this->capacidad = $laminacion;
     }
 
-    public function get_imagen(){
+    public function get_imagen()
+    {
         return $this->imagen;
     }
-    public function set_imagen($imagen){
+
+    public function set_imagen($imagen)
+    {
         $this->imagen = $imagen;
+    }
+
+    public function imprmir_tamanios()
+    {
+        $option = '';
+        $array = $this->get_tamanio();
+        $count = count($array);
+        for ($i = 0; $i < $count; $i++) {
+            $option .= '<option>' . $array[$i] . '</option>';
+        }
+        echo $option;
+    }
+
+    public function imprmir_medidas()
+    {
+        $option = '';
+        $array = $this->get_medidas();
+        $count = count($array);
+        for ($i = 0; $i < $count; $i++) {
+            $option .= '<li>' . $array[$i] . '</li>';
+        }
+        echo $option;
     }
 
 
 }
 
-$negro_standup = new Color_objeto('Negro',['Chicho,Mediano'],['150mm x 220mm + 90mm de fondo','200mm x 260mm + 90mm de fondo']
-    ,['250 gr.','500 gr.'],'BOPPMAT + MPET + LLDPE','1.png');
+//Stadup Pouch
+$negro_standup = new Color_objeto('Negro', ['Chico', 'Mediano'], ['150mm x 220mm + 90mm de fondo', '200mm x 260mm + 90mm de fondo']
+    , ['250 gr.', '500 gr.'], 'BOPPMAT + MPET + LLDPE', '1.png');
 
-$negro_Blanco = new Color_objeto('Blanco',['Chicho,Mediano'],['150mm x 220mm + 90mm de fondo','200mm x 260mm + 90mm de fondo']
-    ,['250 gr.','500 gr.'],'BOPPMAT + MPET + LLDPE','2.png');
+$blanco_standup = new Color_objeto('Blanco', ['Chico', 'Mediano'], ['150mm x 220mm + 90mm de fondo', '200mm x 260mm + 90mm de fondo']
+    , ['250 gr.', '500 gr.'], 'BOPPMAT + MPET + LLDPE', '2.png');
+
+$plateada_standup = new Color_objeto('Plateada', ['Chicho', 'Mediano'], ['150mm x 210mm + 80mm de fondo', '190mm x 250mm + 90mm de fondo']
+    , ['250 gr.', '500 gr.'], 'POLYESTER + MPET + + LLDPE', '3.png');
+
+$dorada_standup = new Color_objeto('Dorada', ['Chicho', 'Mediano', 'Grande'], ['150mm x 210mm + 80mm de fondo', '190mm x 250mm + 90mm de fondo',
+    '240mm x 340mm + 120mm de fondo'], ['250 gr.', '500 gr.', '1,000 gr.'], 'POLYESTER + MPET + + LLDPE', '4.png');
+
+$kraft_standup = new Color_objeto('Kraft', ['Mediano'], ['170mm x 250mm + 90mm de fondo'], ['454 gr.'], 'PAPEL KRAFT + MPET + LLDPE', '5.png');
+
+//4 Sellos
+$blanco_4sellos = new Color_objeto('Blanco', ['Mediano', 'Grande'], ['120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
+    , ['500 gr.', '1,000 gr.'], 'POLIPROPILENO + MPET + LLDPE', '6.png');
+
+$negro_4sellos = new Color_objeto('Negro', ['Mediano', 'Grande'], ['120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
+    , ['500 gr.', '1,000 gr.'], 'POLIPROPILENO + MPET + LLDPE', '7.png');
+
+//Fuelle
+
+$plateada_fuelle = new Color_objeto('Plateada', ['Chica', 'Mediana','Grande', 'Extra Grande'], ['90mm x 250mm + 50mm', '115mm x 290mm + 70mm','125mm x 390mm + 70mm','170mm x 490mm + 85mm de fondo']
+    , ['250 gr.', '500 gr.','1,000 gr.','2,500 gr.'], 'BOPPMAT + MPET+ PE', '8.png');
+
+$Kraft_fuelle = new Color_objeto('Kraft', ['Mediano', 'Grande'], ['120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
+    , ['500 gr.', '1,000 gr.'], 'POLIPROPILENO + MPET + LLDPE', '7.png');
+
+//Standup Pouch Impresa Frasco
+
+$naranja_SPIP = new Color_objeto('Naranja', ['-'], ['175mm X 245mm + 80mm']
+    , ['-'], 'PET12MY + IMPRESIÓN + PE', '8.png');
+
+$verde_SPIP = new Color_objeto('Verde', ['-'], ['157mm x 250mm + 70mm']
+    , ['-'], 'PET12MY + IMPRESIÓN + PE', '9.png');
+
+$negra_SPIP = new Color_objeto('Negra', ['-'], ['169mm x 250mm + 70mm']
+    , ['-'], 'PET12MY + IMPRESIÓN + PE', '10.png');
+
+//Standup Pouch con Spout
+
+$bolsa_SPS = new Color_objeto('-', ['Chica','Mediana'], ['100mm x 170mm + 60mm de fondo','130mm x 190mm + 80mm de fondo']
+    , ['250 ml.','500 ml.'], 'PET 12/PE100', '11.png');
+
+//Standup Pouch con Spout Transparente
+
+$bolsa_SPST = new Color_objeto('-', ['Chica','Mediana','Grande','Extra Grande','XXL'], ['-','-','-','-','-']
+    , ['250 ml.','500 ml.','1 L','2 Lts','3 Lts'], 'POLYESTER  + NYLON  + LLDPE', '12.png');
+
+//3 Sellos
+$plateada_3sellos = new Color_objeto('Plateada', ['Chica', 'Mediano'], ['10cm x 12cm', '12cm x 18cm']
+    , ['-', '-'], 'MPET + PE', '13.png');
+
+//Standup Pouch sin Zipper
+$plateada_SPZ = new Color_objeto('Plateada', ['Grande'], ['200mm x 320mm + 110mm de fondo']
+    , ['1,000 gr.'], 'PET + METPET + WHITEPE', '14.png');
+
+//Standup Pouch con Ventana
+$bolsa_SPV = new Color_objeto('-', ['Chica'], ['150mm x 220mm + 80mm de fondo']
+    , ['250 gr.'], 'POLYESTER + MPET + PE', '15.png');
 
 ?>

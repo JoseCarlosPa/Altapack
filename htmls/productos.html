@@ -30,7 +30,7 @@ include("prodcutos_clases.php");
         </div>
     </div>
 
-    <!--Container de imagenes-->
+    <!----------Caracetristicas--------------->
 
     <div class="row">
 
@@ -41,29 +41,67 @@ include("prodcutos_clases.php");
 
         <!--Imagen central-->
         <div class="col-sm-4">
-        <p>Imagen central</p>
+            <p>Imagen central</p>
         </div>
 
         <!--Tamaño y descripcion-->
         <div class="col-sm-3">
-            <select title="Select your spell" class="selectpicker">
-                <option>Select...</option>
-                <option data-icon="glyphicon glyphicon-eye-open" data-subtext="petrification">Eye of Medusa</option>
-                <option data-icon="glyphicon glyphicon-fire" data-subtext="area damage">Rain of Fire</option>
-            </select>
+
+            <!--Titulo-->
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-11">
+                    <h5>Tamaño</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-12 select-outline">
+                    <select class="form-control">
+                        <?php echo $negro_standup->imprmir_tamanios()?>
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                </div>
+            </div>
         </div>
 
         <!--Color-->
         <div class="col-sm-3">
-            <select title="Select your spell" class="selectpicker">
-                <option>Select...</option>
-                <option data-icon="glyphicon glyphicon-eye-open" data-subtext="petrification">Eye of Medusa</option>
-                <option data-icon="glyphicon glyphicon-fire" data-subtext="area damage">Rain of Fire</option>
-            </select>
+
+            <!--Titulo-->
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-11">
+                    <h5>Color</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-12 select-outline">
+                    <select class="form-control" name ="color">
+                        <option value ="Negro">Negro</option>
+                        <option value ="Blanco">Blanco</option>
+                        <option value ="Palteado">Palteado</option>
+                        <option value ="Dorada">Dorada</option>
+                        <option value ="Kraft">Kraft</option>
+
+                    </select>
+                </div>
+            </div>
         </div>
 
     </div>
-
+    <!---------- FIn Caracetristicas----------------->
 
 </div>
 <!----------------------------------- FIN de primer empaque------------------------------------------------------------>
