@@ -64,6 +64,12 @@
     color: black;
 }
 
+h1{
+    font-family: Montserrat;
+    font-size: 200%;
+    color: black;
+    font-weight: bold;
+}
 .font_1{
     font-family: Montserrat;
     font-size: 1.5em;
@@ -468,109 +474,108 @@ footer{
 
 @media screen 
  and (max-device-width: 10000px) 
- and (min-device-width: 481px) 
-{ 
-    #textomovil{
+ and (min-device-width: 481px) {
+    #textomovil {
         text-align: justify !important;
     }
-    
-    #smallmap{
+
+    #smallmap {
         visibility: hidden;
         display: none;
     }
-    
-    #bigmap{
+
+    #bigmap {
         visibility: visible;
         display: inline;
     }
-    
-    #bigtitle1{
+
+    #bigtitle1 {
         visibility: hidden !important;
-        display: none ;
+        display: none;
     }
-    
-    #smalltitle1{
-         visibility: visible;
+
+    #smalltitle1 {
+        visibility: visible;
         display: inline;
     }
-    
-    #bigtitle2{
+
+    #bigtitle2 {
         visibility: hidden !important;
-        display: none ;
+        display: none;
     }
-    
-    #smalltitle2{
-         visibility: visible;
+
+    #smalltitle2 {
+        visibility: visible;
         display: inline;
     }
-    
-    #imagebig1{
-         visibility: visible;
+
+    #imagebig1 {
+        visibility: visible;
         display: inline;
     }
-    
-    #imagesmall1{
+
+    #imagesmall1 {
         visibility: hidden;
         display: none;
     }
-    
-    
-    
-    #imagen_pc_movil_urban{
+
+
+    #imagen_pc_movil_urban {
         display: none;
     }
-    
-     #imagen_pc_web_urban{
+
+    #imagen_pc_web_urban {
         display: inline;
         visibility: visible;
     }
-    
-    #info_urban{
+
+    #info_urban {
         display: inline;
         visibility: visible;
     }
-    
-    #carouselExampleIndicators{
+
+    #carouselExampleIndicators {
         display: none;
     }
-    
-    .carouselExampleIndicators{
+
+    .carouselExampleIndicators {
         display: none;
     }
-    
-    #cards_mobile{
+
+    #cards_mobile {
         display: inline;
         visibility: visible;
     }
-    
-    #cards_mobile2{
+
+    #cards_mobile2 {
         display: inline;
         visibility: visible;
     }
-    
-    .align_econt{
+
+    .align_econt {
         text-align: right;
     }
 
-    .texto_movil{
+    .texto_movil {
         display: none;
     }
-    .footer_movil{
+
+    .footer_movil {
         display: none;
     }
-    
-    
+
+
     #footer_id {
         margin: 0 auto;
         padding-left: 18em;
         padding-right: 12em;
         object-fit: fill;
     }
-    
-    .cuadrado_contacto{
+
+    .cuadrado_contacto {
         padding: 5%;
         width: 130%;
-        height:75%;
+        height: 75%;
 
         background-color: #ffffff;
         bborder-radius: 11px 11px 11px 11px;
@@ -578,525 +583,129 @@ footer{
         -webkit-border-radius: 11px 11px 11px 11px;
     }
 
-.md-outline.select-wrapper+label {
-    top: .5em !important;
-    z-index: 2 !important;
-}
-
-.font_19{
-    margin: 0 auto;
-    max-width: 70%;
-    font-family: Montserrat;
-    font-size: 200%;
-    color: #ffffff;
-    font-weight: bold;
-}
-.font_19_1{
-    margin: 0 auto;
-    max-width: 70%;
-    font-family: Montserrat;
-    font-size: 150%;
-    color: #ffffff;
-    font-weight: bold;
-}
-
-.font_20{
-    font-family: Montserrat;
-    font-size: 145%;
-    color: #252525;
-
-    font-weight: bold;
-}
-
-.boton_publicidad{
-    float: right;
-    width:10em;
-    height:4em;
-    background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#237794, #237794); /* Standard syntax */
-    border-radius: 19px 19px 19px 19px;
-    -moz-border-radius: 19px 19px 19px 19px;
-    -webkit-border-radius: 19px 19px 19px 19px;
-    color: white;
-    font-weight: bold;
-    border: 0px solid #000000;
-
-}
-.boton_contacto{
-
-    width:10em;
-    height:4em;
-    background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#237794, #237794); /* Standard syntax */
-    border-radius: 19px 19px 19px 19px;
-    -moz-border-radius: 19px 19px 19px 19px;
-    -webkit-border-radius: 19px 19px 19px 19px;
-    color: white;
-    font-weight: bold;
-    border: 0px solid #000000;
-
-}
-
-.boton_enviar{
-    width:8em;
-    height:2.5em;
-    background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#237794, #237794); /* Standard syntax */
-    color: white;
-    border-radius: 50px 50px 50px 50px;
-    -moz-border-radius: 50px 50px 50px 50px;
-    -webkit-border-radius: 50px 50px 50px 50px;
-    border: 0px solid #000000;
-}
-
-.radioColor1{
-    background-color: #f58442;
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.radioColor2{
-
-    background-color: #949494;
-}
-.radioColor3{
-
-    background-color: rgba(248, 255, 35, 0.7);
-}
-.radioColor4{
-
-    background-color: #000000;
-}
-
-@media screen
-and (max-device-width: 480px)
-and (min-device-width: 0px) {
-    .image_prodcuto_movil{
-        text-align: center;
+    .md-outline.select-wrapper + label {
+        top: .5em !important;
+        z-index: 2 !important;
     }
-    .image_prodcuto{
-        display: none;
+
+    .font_19 {
+        margin: 0 auto;
+        max-width: 70%;
+        font-family: Montserrat;
+        font-size: 200%;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .font_19_1 {
+        margin: 0 auto;
+        max-width: 70%;
+        font-family: Montserrat;
+        font-size: 150%;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .font_20 {
+        font-family: Montserrat;
+        font-size: 145%;
+        color: #252525;
+
+        font-weight: bold;
+    }
+
+    .boton_publicidad {
+        float: right;
+        width: 10em;
+        height: 4em;
+        background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#237794, #237794); /* Standard syntax */
+        border-radius: 19px 19px 19px 19px;
+        -moz-border-radius: 19px 19px 19px 19px;
+        -webkit-border-radius: 19px 19px 19px 19px;
+        color: white;
+        font-weight: bold;
+        border: 0px solid #000000;
+
+    }
+
+    .boton_contacto {
+
+        width: 10em;
+        height: 4em;
+        background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#237794, #237794); /* Standard syntax */
+        border-radius: 19px 19px 19px 19px;
+        -moz-border-radius: 19px 19px 19px 19px;
+        -webkit-border-radius: 19px 19px 19px 19px;
+        color: white;
+        font-weight: bold;
+        border: 0px solid #000000;
+
+    }
+
+    .boton_enviar {
+        width: 8em;
+        height: 2.5em;
+        background: -webkit-linear-gradient(#237794, #237794); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#237794, #237794); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#237794, #237794); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#237794, #237794); /* Standard syntax */
+        color: white;
+        border-radius: 50px 50px 50px 50px;
+        -moz-border-radius: 50px 50px 50px 50px;
+        -webkit-border-radius: 50px 50px 50px 50px;
+        border: 0px solid #000000;
+    }
+
+    .radioColor1 {
+        background-color: #f58442;
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .radioColor2 {
+
+        background-color: #949494;
+    }
+
+    .radioColor3 {
+
+        background-color: rgba(248, 255, 35, 0.7);
+    }
+
+    .radioColor4 {
+
+        background-color: #000000;
     }
 }
 
-@media screen
-and (max-device-width: 10000px)
-and (min-device-width: 481px) {
-    .image_prodcuto_movil{
-        display:none;
+    @media screen
+    and (max-device-width: 480px)
+    and (min-device-width: 0px) {
+        .image_prodcuto_movil {
+            text-align: center;
+        }
+
+        .image_prodcuto {
+            display: none;
+        }
     }
-}
-/* custom radio */
-.radio1 {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 
-/* hide the browser's default radio button */
-.radio1 input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
+    /* custom radio */
 
-/* create custom radio */
-.radio1 .check {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-}
 
-/* on mouse-over, add border color */
-.radio1:hover input ~ .check {
-    border: 2px solid #000000;
-}
 
-/* add background color when the radio is checked */
-.radio1 input:checked ~ .check {
-    background-color: #000000;
-    border:none;
-}
 
-/* create the radio and hide when not checked */
-.radio1 .check:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* show the radio when checked */
-.radio1 input:checked ~ .check:after {
-    display: block;
-}
-
-/* radio style */
-.radio1 .check:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-}
-
-/* ----------Radio No.2-----------*/
-/* custom radio */
-.radio2 {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* hide the browser's default radio button */
-.radio2 input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/* create custom radio */
-.radio2 .check {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-}
-
-/* on mouse-over, add border color */
-.radio2:hover input ~ .check {
-    border: 2px solid #68dbff;
-}
-
-/* add background color when the radio is checked */
-.radio2 input:checked ~ .check {
-    background-color: #68dbff;
-    border:none;
-}
-
-/* create the radio and hide when not checked */
-.radio2 .check:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* show the radio when checked */
-.radio2 input:checked ~ .check:after {
-    display: block;
-}
-
-/* radio style */
-.radio2 .check:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-}
-
-/* ----------Radio No.3-----------*/
-/* custom radio */
-.radio3 {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* hide the browser's default radio button */
-.radio3 input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/* create custom radio */
-.radio3 .check {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-}
-
-/* on mouse-over, add border color */
-.radio3:hover input ~ .check {
-    border: 2px solid #fcff4c;
-}
-
-/* add background color when the radio is checked */
-.radio3 input:checked ~ .check {
-    background-color: #fcff4c;
-    border:none;
-}
-
-/* create the radio and hide when not checked */
-.radio3 .check:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* show the radio when checked */
-.radio3 input:checked ~ .check:after {
-    display: block;
-}
-
-/* radio style */
-.radio3 .check:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-}
-
-/* ----------Radio No.4-----------*/
-/* custom radio */
-.radio4 {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* hide the browser's default radio button */
-.radio4 input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/* create custom radio */
-.radio4 .check {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-}
-
-/* on mouse-over, add border color */
-.radio4:hover input ~ .check {
-    border: 2px solid #ffc122;
-}
-
-/* add background color when the radio is checked */
-.radio4 input:checked ~ .check {
-    background-color: #ffc122;
-    border:none;
-}
-
-/* create the radio and hide when not checked */
-.radio4 .check:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* show the radio when checked */
-.radio4 input:checked ~ .check:after {
-    display: block;
-}
-
-/* radio style */
-.radio4 .check:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-}
-
-/* ----------Radio No.5-----------*/
-/* custom radio */
-.radio5 {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* hide the browser's default radio button */
-.radio5 input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/* create custom radio */
-.radio5 .check {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-}
-
-/* on mouse-over, add border color */
-.radio5:hover input ~ .check {
-    border: 2px solid #ffc122;
-}
-
-/* add background color when the radio is checked */
-.radio5 input:checked ~ .check {
-    background-color: #ffc122;
-    border:none;
-}
-
-/* create the radio and hide when not checked */
-.radio5 .check:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* show the radio when checked */
-.radio5 input:checked ~ .check:after {
-    display: block;
-}
-
-/* radio style */
-.radio5 .check:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-}
-
-/* ----------Radio No.6-----------*/
-/* custom radio */
-.radio6 {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* hide the browser's default radio button */
-.radio6 input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/* create custom radio */
-.radio6 .check {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-}
-
-/* on mouse-over, add border color */
-.radio6:hover input ~ .check {
-    border: 2px solid #b4b4b4;
-}
-
-/* add background color when the radio is checked */
-.radio6 input:checked ~ .check {
-    background-color: #b4b4b4;
-    border:none;
-}
-
-/* create the radio and hide when not checked */
-.radio6 .check:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* show the radio when checked */
-.radio6 input:checked ~ .check:after {
-    display: block;
-}
-
-/* radio style */
-.radio6 .check:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-}

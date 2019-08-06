@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da71cea-dbeb-4524-8e1d-6d90114a8498" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/prodcutos_clases.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/altapack.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/altapack.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmls/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/productos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos.php" beforeDir="false" afterPath="$PROJECT_DIR$/productos.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,6 +123,7 @@
       <workItem from="1564409616841" duration="356000" />
       <workItem from="1564433392441" duration="181000" />
       <workItem from="1564500969167" duration="88000" />
+      <workItem from="1565101696113" duration="4164000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrego el nav bar y se corrigo los colores&#10;falta corregir el orden y las fuentes">
       <created>1560654828483</created>
