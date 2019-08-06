@@ -1,5 +1,7 @@
 <?php
 include("prodcutos_clases.php");
+
+$color = $negro_standup;
 ?>
 
 <div class="row">
@@ -36,75 +38,83 @@ include("prodcutos_clases.php");
 
         <!--Imagenes laterales-->
         <div class="col-sm-2">
-            <p>Imagen lateral</p>
+            <div class ="row">
+                <img src ="img/productos/3b.png" width="80%" height="100%">
+            </div>
+            <div class ="row">
+                <img src ="img/productos/4b.png" width="80%" height="100%" >
+            </div>
+            <div class ="row">
+                <img src ="img/productos/2.png" width="80%" height="100%">
+            </div>
         </div>
 
         <!--Imagen central-->
         <div class="col-sm-4">
-            <p>Imagen central</p>
+            <?php echo $color->get_imagen()?><!--Atributo unico-->
         </div>
 
         <!--Tamaño y descripcion-->
-        <div class="col-sm-3">
+        <div class="col-sm-6 ">
 
             <!--Titulo-->
             <div class="row">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-11">
-                    <h5>Tamaño</h5>
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
                 </div>
             </div>
 
             <!--Select-->
             <div class="row">
-                <div class="col-sm-12 select-outline">
+                <div class="col-sm-6 select-outline">
                     <select class="form-control">
-                        <?php echo $negro_standup->imprmir_tamanios()?>
+                        <?php echo $color->imprmir_tamanios()?>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color">
+                        <option value="1">Negra</option>
+                        <option value="2">Blanco</option>
+                        <option value="3">Plateada</option>
+                        <option value="4">Dorada</option>
+                        <option value="5">Kraft</option>
                     </select>
                 </div>
             </div>
 
             <!--Descripcio-->
             <div class="row">
-                <div class="col-sm-1"></div>
                 <div class="col-sm-11">
                     <br>
                     <h5>Descripcion</h5>
+                    <ul>
+                        <li><?php echo $color->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo $color->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li><?php echo $color->get_laminacion()?></li><!--Este es un atributo unico-->
+                    </ul>
                 </div>
             </div>
-        </div>
-
-        <!--Color-->
-        <div class="col-sm-3">
-
-            <!--Titulo-->
+            <br><br>
             <div class="row">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-11">
-                    <h5>Color</h5>
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
                 </div>
             </div>
 
-            <!--Select-->
-            <div class="row">
-                <div class="col-sm-12 select-outline">
-                    <select class="form-control" name ="color">
-                        <option value ="Negro">Negro</option>
-                        <option value ="Blanco">Blanco</option>
-                        <option value ="Palteado">Palteado</option>
-                        <option value ="Dorada">Dorada</option>
-                        <option value ="Kraft">Kraft</option>
-
-                    </select>
-                </div>
-            </div>
         </div>
 
     </div>
     <!---------- FIn Caracetristicas----------------->
 
 </div>
-<!----------------------------------- FIN de primer empaque------------------------------------------------------------>
+<!----------------------------------- FIN de primer producto------------------------------------------------------------>
 
 <br>
 <hr width="100%">
