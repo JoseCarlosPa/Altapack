@@ -1,0 +1,117 @@
+<?php
+
+include("prodcutos_clases.php");
+
+$_POST['idColor6'] = htmlentities($_POST['idColor6']);
+$_POST['idSize6'] = htmlentities($_POST['idSize6']);
+$idSize6 = $_POST['idSize6'];
+$idColor6 = $_POST['idColor6'];
+
+switch ($_POST['idColor6']) {
+    case 0:
+        $currentProduct6 = $bolsa_SPST;
+        $nombreProducto6 = "Standup Pouch con Spout Transparente";
+        $imagen1_6 = "img/productos/SUP-Negra.gif";
+        $imagen2_6 = "img/productos/SUP-Negra.gif";
+        $imagen3_6 = "img/productos/SUP-Negra.gif";
+        break;
+
+}
+
+echo '
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">'.$nombreProducto6.'</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+        <div class="col-sm-2">
+            <div class ="row">
+                <img src ="'.$imagen1_6.'" id="imagen1_6" width="50%" height="100%" style="display:none">
+            </div>
+            <div class ="row">
+                <img src ="'.$imagen2_6.'" id="imagen2_6" width="50%" height="100%" style="display:none">
+            </div>
+            <div class ="row">
+                <img src ="'.$imagen3_6.'" id="imagen3_6" width="50%" height="100%" style="display:none">
+            </div>
+        </div>
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+        <img src ="'.$imagen1_6.'" id="imagen1_6" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-6 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id="size6" onchange="actualizarProducto6()">'
+    .$currentProduct6->imprmir_tamanios().'
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color6" onchange="actualizarProducto6()">
+                        <option value="0">-</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li>'.$currentProduct6->imprmir_medidas($idSize6).'</li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li>'.$currentProduct6->imprmir_capacidad($idSize6).'</li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li>'.$currentProduct6->get_laminacion().'</li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+    <script>
+      $("#color6").val('.$idColor6.');
+      $("#size6").val('.$idSize6.');
+      $("#imagen1_6").fadeIn(1500);
+      $("#imagen2_6").fadeIn(1500);
+      $("#imagen3_6").fadeIn(1500);
+    </script>
+';
+
+
+?>

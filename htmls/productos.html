@@ -2,6 +2,15 @@
 include("prodcutos_clases.php");
 
  $currentProduct = $negro_standup;
+ $currentProduct2 = $blanco_4sellos;
+ $currentProduct3 = $plateada_fuelle;
+ $currentProduct4 = $naranja_SPIP;
+ $currentProduct5 = $bolsa_SPS;
+ $currentProduct6 = $bolsa_SPST;
+ $currentProduct7 = $plateada_3sellos;
+ $currentProduct8 = $plateada_SPZ;
+ $currentProduct9 = $bolsa_SPV;
+
 ?>
 
 <div class="row">
@@ -39,19 +48,19 @@ include("prodcutos_clases.php");
         <!--Imagenes laterales-->
         <div class="col-sm-2">
             <div class ="row">
-                <img src ="img/productos/3b.png" width="80%" height="100%">
+                <img src ="img/productos/3b.png" width="50%" height="100%">
             </div>
             <div class ="row">
-                <img src ="img/productos/4b.png" width="80%" height="100%" >
+                <img src ="img/productos/4b.png" width="50%" height="100%" >
             </div>
             <div class ="row">
-                <img src ="img/productos/2.png" width="80%" height="100%">
+                <img src ="img/productos/2.png" width="50%" height="100%">
             </div>
         </div>
 
         <!--Imagen central-->
         <div class="col-sm-4">
-            <?php echo  $currentProduct->get_imagen()?><!--Atributo unico-->
+            <img src ="img/productos/SUP-NEgra.gif" width="80%" height="70%">
         </div>
 
         <!--Tamaño y descripcion-->
@@ -115,6 +124,769 @@ include("prodcutos_clases.php");
 
 </div>
 <!----------------------------------- FIN de primer producto------------------------------------------------------------>
+
+<br>
+<hr width="100%">
+<br>
+
+<!-----------------------------------------Prodcuto No.2-------------------------------------------------------------->
+<div class="container" id="caracteristicasAjax2">
+
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">4 SELLOS</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+        <div class="col-sm-2">
+            <div class ="row">
+                <img src ="img/productos/3b.png" width="50%" height="100%">
+            </div>
+            <div class ="row">
+                <img src ="img/productos/4b.png" width="50%" height="100%" >
+            </div>
+            <div class ="row">
+                <img src ="img/productos/2.png" width="50%" height="100%">
+            </div>
+        </div>
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+            <img src ="img/productos/SUP-NEgra.gif" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-6 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="size2" onchange="actualizarProducto2()">
+                        <?php echo  $currentProduct2->imprmir_tamanios()?>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color2" onchange="actualizarProducto2()">
+                        <option value="0">Blanco</option>
+                        <option value="1">Negra</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li><?php echo  $currentProduct2->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct2->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li><?php echo  $currentProduct2->get_laminacion()?></li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+</div>
+<!----------------------------------- FIN de primer producto2------------------------------------------------------------>
+
+<br>
+<hr width="100%">
+<br>
+<!-----------------------------------------Prodcuto No.3-------------------------------------------------------------->
+<div class="container" id="caracteristicasAjax3">
+
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">FUELLE</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+        <div class="col-sm-2">
+            <div class ="row">
+                <img src ="img/productos/3b.png" width="50%" height="100%">
+            </div>
+            <div class ="row">
+                <img src ="img/productos/4b.png" width="50%" height="100%" >
+            </div>
+            <div class ="row">
+                <img src ="img/productos/2.png" width="50%" height="100%">
+            </div>
+        </div>
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+            <img src ="img/productos/SUP-NEgra.gif" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-6 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="size3" onchange="actualizarProducto3()">
+                        <?php echo  $currentProduct3->imprmir_tamanios()?>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color3" onchange="actualizarProducto3()">
+                        <option value="0">Plateado</option>
+                        <option value="1">Kraft</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li><?php echo  $currentProduct3->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct3->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li><?php echo  $currentProduct3->get_laminacion()?></li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+</div>
+<!----------------------------------- FIN de primer producto3------------------------------------------------------------>
+
+<br>
+<hr width="100%">
+<br>
+
+<!-----------------------------------------Prodcuto No.4-------------------------------------------------------------->
+<div class="container" id="caracteristicasAjax4">
+
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">Standup Pouch Impresa Frasco</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+        <div class="col-sm-2">
+            <div class ="row">
+                <img src ="img/productos/3b.png" width="50%" height="100%">
+            </div>
+            <div class ="row">
+                <img src ="img/productos/4b.png" width="50%" height="100%" >
+            </div>
+            <div class ="row">
+                <img src ="img/productos/2.png" width="50%" height="100%">
+            </div>
+        </div>
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+            <img src ="img/productos/SUP-NEgra.gif" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-6 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="size4" onchange="actualizarProducto4()">
+                        <?php echo  $currentProduct4->imprmir_tamanios()?>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color4" onchange="actualizarProducto4()">
+                        <option value="0">Naranja</option>
+                        <option value="1">Verde</option>
+                        <option value="2">Negra</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li><?php echo  $currentProduct4->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct4->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li><?php echo  $currentProduct4->get_laminacion()?></li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+</div>
+<!----------------------------------- FIN de primer producto4------------------------------------------------------------>
+
+<br>
+<hr width="100%">
+<br>
+<!-----------------------------------------Prodcuto No.5-------------------------------------------------------------->
+<div class="container" id="caracteristicasAjax5">
+
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">Standup Pouch con Spout</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+        <div class="col-sm-2">
+            <div class ="row">
+                <img src ="img/productos/3b.png" width="50%" height="100%">
+            </div>
+            <div class ="row">
+                <img src ="img/productos/4b.png" width="50%" height="100%" >
+            </div>
+            <div class ="row">
+                <img src ="img/productos/2.png" width="50%" height="100%">
+            </div>
+        </div>
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+            <img src ="img/productos/SUP-NEgra.gif" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-6 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="size5" onchange="actualizarProducto5()">
+                        <?php echo  $currentProduct5->imprmir_tamanios()?>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color5" onchange="actualizarProducto5()">
+                        <option value="0">-</option>
+
+
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li><?php echo  $currentProduct5->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct5->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li><?php echo  $currentProduct5->get_laminacion()?></li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+</div>
+<!----------------------------------- FIN de primer producto5------------------------------------------------------------>
+
+<br>
+<hr width="100%">
+<br>
+<!-----------------------------------------Prodcuto No.6-------------------------------------------------------------->
+<div class="container" id="caracteristicasAjax6">
+
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">Standup Pouch con Spout Transparente</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+        <div class="col-sm-2">
+            <div class ="row">
+                <img src ="img/productos/3b.png" width="50%" height="100%">
+            </div>
+            <div class ="row">
+                <img src ="img/productos/4b.png" width="50%" height="100%" >
+            </div>
+            <div class ="row">
+                <img src ="img/productos/2.png" width="50%" height="100%">
+            </div>
+        </div>
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+            <img src ="img/productos/SUP-NEgra.gif" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-6 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="size6" onchange="actualizarProducto6()">
+                        <?php echo  $currentProduct6->imprmir_tamanios()?>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color6" onchange="actualizarProducto6()">
+                        <option value="0">-</option>
+
+
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li><?php echo  $currentProduct6->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct6->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li><?php echo  $currentProduct6->get_laminacion()?></li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+</div>
+<!----------------------------------- FIN de primer producto6------------------------------------------------------------>
+
+<br>
+<hr width="100%">
+<br>
+<!-----------------------------------------Prodcuto No.7-------------------------------------------------------------->
+<div class="container" id="caracteristicasAjax7">
+
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">3 Sellos</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+        <div class="col-sm-2">
+            <div class ="row">
+                <img src ="img/productos/3b.png" width="50%" height="100%">
+            </div>
+            <div class ="row">
+                <img src ="img/productos/4b.png" width="50%" height="100%" >
+            </div>
+            <div class ="row">
+                <img src ="img/productos/2.png" width="50%" height="100%">
+            </div>
+        </div>
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+            <img src ="img/productos/SUP-NEgra.gif" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-6 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="size7" onchange="actualizarProducto7()">
+                        <?php echo  $currentProduct7->imprmir_tamanios()?>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color7" onchange="actualizarProducto7()">
+                        <option value="0">Plateada</option>
+
+
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li><?php echo  $currentProduct7->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct7->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li><?php echo  $currentProduct7->get_laminacion()?></li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+</div>
+<!----------------------------------- FIN de primer producto7------------------------------------------------------------>
+
+<br>
+<hr width="100%">
+<br>
+<!-----------------------------------------Prodcuto No.8-------------------------------------------------------------->
+<div class="container" id="caracteristicasAjax8">
+
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">Standup Pouch sin Zipper</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+        <div class="col-sm-2">
+            <div class ="row">
+                <img src ="img/productos/3b.png" width="50%" height="100%">
+            </div>
+            <div class ="row">
+                <img src ="img/productos/4b.png" width="50%" height="100%" >
+            </div>
+            <div class ="row">
+                <img src ="img/productos/2.png" width="50%" height="100%">
+            </div>
+        </div>
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+            <img src ="img/productos/SUP-NEgra.gif" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-6 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="size8" onchange="actualizarProducto8()">
+                        <?php echo  $currentProduct8->imprmir_tamanios()?>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color8" onchange="actualizarProducto8()">
+                        <option value="0">Plateada</option>
+
+
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li><?php echo  $currentProduct8->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct8->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li><?php echo  $currentProduct8->get_laminacion()?></li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+</div>
+<!----------------------------------- FIN de primer producto8------------------------------------------------------------>
+
+<br>
+<hr width="100%">
+<br>
+<!-----------------------------------------Prodcuto No.9-------------------------------------------------------------->
+<div class="container" id="caracteristicasAjax9">
+
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">Standup Pouch con Ventana</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+        <div class="col-sm-2">
+            <div class ="row">
+                <img src ="img/productos/3b.png" width="50%" height="100%">
+            </div>
+            <div class ="row">
+                <img src ="img/productos/4b.png" width="50%" height="100%" >
+            </div>
+            <div class ="row">
+                <img src ="img/productos/2.png" width="50%" height="100%">
+            </div>
+        </div>
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+            <img src ="img/productos/SUP-NEgra.gif" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-6 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="size9" onchange="actualizarProducto9()">
+                        <?php echo  $currentProduct9->imprmir_tamanios()?>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color9" onchange="actualizarProducto9()">
+                        <option value="0">-</option>
+
+
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li><?php echo  $currentProduct9->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct9->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li><?php echo  $currentProduct9->get_laminacion()?></li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+</div>
+<!----------------------------------- FIN de primer producto5------------------------------------------------------------>
 
 <br>
 <hr width="100%">

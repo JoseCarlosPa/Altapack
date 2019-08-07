@@ -154,11 +154,11 @@ $plateada_fuelle = new Color_objeto('Plateada', ['Chica', 'Mediana', 'Grande', '
     , ['250 gr.', '500 gr.', '1,000 gr.', '2,500 gr.'], 'BOPPMAT + MPET+ PE', '8.png');
 
 $Kraft_fuelle = new Color_objeto('Kraft', ['Mediano', 'Grande'], ['120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
-    , ['500 gr.', '1,000 gr.'], 'POLIPROPILENO + MPET + LLDPE', '7.png');
+    , ['500 gr.', '1,000 gr.'], 'PAPEL KRAFT + MPET + PE', '7.png');
 // -------------------------------------------------------------------------------------------------------------------
 //Standup Pouch Impresa Frasco
 
-$naranja_SPIP = new Color_objeto('Naranja', ['-'], ['175mm X 245mm + 80mm']
+$naranja_SPIP = new Color_objeto('Naranja', ['-',], ['175mm X 245mm + 80mm']
     , ['-'], 'PET12MY + IMPRESIÓN + PE', '8.png');
 
 $verde_SPIP = new Color_objeto('Verde', ['-'], ['157mm x 250mm + 70mm']

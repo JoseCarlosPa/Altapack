@@ -60,19 +60,19 @@ echo '
         <!--Imagenes laterales-->
         <div class="col-sm-2">
             <div class ="row">
-                <img src ="'.$imagen1.'" id="imagen1" width="100%" height="100%" style="display:none">
+                <img src ="'.$imagen1.'" id="imagen1" width="50%" height="100%" style="display:none">
             </div>
             <div class ="row">
-                <img src ="'.$imagen2.'" id="imagen2" width="100%" height="100%" style="display:none">
+                <img src ="'.$imagen2.'" id="imagen2" width="50%" height="100%" style="display:none">
             </div>
             <div class ="row">
-                <img src ="'.$imagen3.'" id="imagen3" width="100%" height="100%" style="display:none">
+                <img src ="'.$imagen3.'" id="imagen3" width="50%" height="100%" style="display:none">
             </div>
         </div>
 
         <!--Imagen central-->
-        <div class="col-sm-4">'
-          .$currentProduct->get_imagen().'
+        <div class="col-sm-4">
+        <img src ="'.$imagen1.'" id="imagen1" width="80%" height="70%">
         </div>
 
         <!--Tamaño y descripcion-->
@@ -142,5 +142,6 @@ echo '
       $("#imagen3").fadeIn(1500);
     </script>
 ';
+
 
 ?>

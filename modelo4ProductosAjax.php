@@ -1,0 +1,132 @@
+<?php
+
+include("prodcutos_clases.php");
+
+$_POST['idColor4'] = htmlentities($_POST['idColor4']);
+$_POST['idSize4'] = htmlentities($_POST['idSize4']);
+$idSize4 = $_POST['idSize4'];
+$idColor4 = $_POST['idColor4'];
+
+switch ($_POST['idColor4']) {
+    case 0:
+        $currentProduct4 = $naranja_SPIP;
+        $nombreProducto4 = "Standup Pouch Impresa Frasco";
+        $imagen1_4 = "img/productos/SUP-Negra.gif";
+        $imagen2_4 = "img/productos/SUP-Negra.gif";
+        $imagen3_4 = "img/productos/SUP-Negra.gif";
+        break;
+    case 1:
+        $currentProduct4 = $verde_SPIP;
+        $nombreProducto4 = "Standup Pouch Impresa Frasco";
+        $imagen1_4 = "img/productos/SUP-Blanca2.gif";
+        $imagen2_4 = "img/productos/SUP-Blanca2.gif";
+        $imagen3_4 = "img/productos/SUP-Blanca2.gif";
+        break;
+    case 2:
+        $currentProduct4 = $negra_SPIP;
+        $nombreProducto4 = "Standup Pouch Impresa Frasco";
+        $imagen1_4 = "img/productos/SUP-Plateada.gif";
+        $imagen2_4 = "img/productos/SUP-Plateada.gif";
+        $imagen3_4 = "img/productos/SUP-Plateada.gif";
+        break;
+
+}
+
+echo '
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">'.$nombreProducto.'</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+        <div class="col-sm-2">
+            <div class ="row">
+                <img src ="'.$imagen1_4.'" id="imagen1_4" width="50%" height="100%" style="display:none">
+            </div>
+            <div class ="row">
+                <img src ="'.$imagen2_4.'" id="imagen2_4" width="50%" height="100%" style="display:none">
+            </div>
+            <div class ="row">
+                <img src ="'.$imagen3_4.'" id="imagen3_4" width="50%" height="100%" style="display:none">
+            </div>
+        </div>
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+        <img src ="'.$imagen1_4.'" id="imagen1_4" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-6 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id="size4" onchange="actualizarProducto4()">'
+    .$currentProduct4->imprmir_tamanios().'
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color4" onchange="actualizarProducto4()">
+                       <option value="0">Naranja</option>
+                        <option value="1">Verde</option>
+                        <option value="2">Negra</option>
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li>'.$currentProduct4->imprmir_medidas($idSize4).'</li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li>'.$currentProduct4->imprmir_capacidad($idSize4).'</li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li>'.$currentProduct4->get_laminacion().'</li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <button class="boton_publicidad">Mas informacion</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+    <script>
+      $("#color4").val('.$idColor4.');
+      $("#size4").val('.$idSize4.');
+      $("#imagen1_4").fadeIn(1500);
+      $("#imagen2_4").fadeIn(1500);
+      $("#imagen3_4").fadeIn(1500);
+    </script>
+';
+
+
+?>

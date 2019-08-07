@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da71cea-dbeb-4524-8e1d-6d90114a8498" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/modelo2ProductosAjax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelo3ProductosAjax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelo4ProductosAjax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelo5ProductosAjax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelo6ProductosAjax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelo7ProductosAjax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelo8ProductosAjax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelo9ProductosAjax.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/altapack.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/altapack.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmls/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/ajax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmls/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/productos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modeloProductosAjax.php" beforeDir="false" afterPath="$PROJECT_DIR$/modeloProductosAjax.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prodcutos_clases.php" beforeDir="false" afterPath="$PROJECT_DIR$/prodcutos_clases.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,11 +86,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/fondos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -124,6 +133,7 @@
       <workItem from="1564433392441" duration="181000" />
       <workItem from="1564500969167" duration="88000" />
       <workItem from="1565101696113" duration="4164000" />
+      <workItem from="1565188343754" duration="5846000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrego el nav bar y se corrigo los colores&#10;falta corregir el orden y las fuentes">
       <created>1560654828483</created>
