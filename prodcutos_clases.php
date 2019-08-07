@@ -92,7 +92,7 @@ class Color_objeto
         for ($i = 0; $i < $count; $i++) {
             $option .= '<option value ="'.$i.'">' . $array[$i] . '</option>';
         }
-        echo $option;
+        return $option;
     }
 
     public function imprmir_medidas($tamanio_bolsa) //Le llegara un parametro de tipo int del 0 a X donde 0 es chicho y X es XXL
@@ -105,7 +105,7 @@ class Color_objeto
                 $result = $array[$i];  // se guardara el valor en result y se mandara imprimir
             }
         }
-        echo $result;
+        return $result;
     }
 
     public function imprmir_capacidad($tamanio_bolsa) //Le llegara un parametro de tipo int del 0 a X donde 0 es chicho y X es XXL
@@ -118,7 +118,7 @@ class Color_objeto
                 $result = $array[$i];  // se guardara el valor en result y se mandara imprimir
             }
         }
-        echo $result;
+        return $result;
     }
 
 }

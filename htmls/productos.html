@@ -1,7 +1,7 @@
 <?php
 include("prodcutos_clases.php");
 
-$color = $negro_standup;
+ $currentProduct = $negro_standup;
 ?>
 
 <div class="row">
@@ -23,7 +23,7 @@ $color = $negro_standup;
 <br>
 <br>
 <!-----------------------------------------Prodcuto No.1-------------------------------------------------------------->
-<div class="container">
+<div class="container" id="caracteristicasAjax">
 
     <!--Titulo de la bolsa-->
     <div class="row">
@@ -51,7 +51,7 @@ $color = $negro_standup;
 
         <!--Imagen central-->
         <div class="col-sm-4">
-            <?php echo $color->get_imagen()?><!--Atributo unico-->
+            <?php echo  $currentProduct->get_imagen()?><!--Atributo unico-->
         </div>
 
         <!--Tamaño y descripcion-->
@@ -71,18 +71,18 @@ $color = $negro_standup;
             <!--Select-->
             <div class="row">
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control">
-                        <?php echo $color->imprmir_tamanios()?>
+                    <select class="form-control" id ="size" onchange="actualizarProducto()">
+                        <?php echo  $currentProduct->imprmir_tamanios()?>
                     </select>
                 </div>
 
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="color">
-                        <option value="1">Negra</option>
-                        <option value="2">Blanco</option>
-                        <option value="3">Plateada</option>
-                        <option value="4">Dorada</option>
-                        <option value="5">Kraft</option>
+                    <select class="form-control" id ="color" onchange="actualizarProducto()">
+                        <option value="0">Negra</option>
+                        <option value="1">Blanco</option>
+                        <option value="2">Plateada</option>
+                        <option value="3">Dorada</option>
+                        <option value="4">Kraft</option>
                     </select>
                 </div>
             </div>
@@ -93,9 +93,9 @@ $color = $negro_standup;
                     <br>
                     <h5>Descripcion</h5>
                     <ul>
-                        <li><?php echo $color->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
-                        <li><?php echo $color->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
-                        <li><?php echo $color->get_laminacion()?></li><!--Este es un atributo unico-->
+                        <li><?php echo  $currentProduct->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct->imprmir_capacidad(0)?></li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                        <li><?php echo  $currentProduct->get_laminacion()?></li><!--Este es un atributo unico-->
                     </ul>
                 </div>
             </div>
@@ -139,7 +139,3 @@ $color = $negro_standup;
     <br><br>
 
 </div>
-
-
-
-
