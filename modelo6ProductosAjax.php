@@ -31,17 +31,7 @@ echo '
     <div class="row">
 
         <!--Imagenes laterales-->
-        <div class="col-sm-2">
-            <div class ="row">
-                <img src ="'.$imagen1_6.'" id="imagen1_6" width="50%" height="100%" style="display:none">
-            </div>
-            <div class ="row">
-                <img src ="'.$imagen2_6.'" id="imagen2_6" width="50%" height="100%" style="display:none">
-            </div>
-            <div class ="row">
-                <img src ="'.$imagen3_6.'" id="imagen3_6" width="50%" height="100%" style="display:none">
-            </div>
-        </div>
+       
 
         <!--Imagen central-->
         <div class="col-sm-4">
@@ -49,7 +39,7 @@ echo '
         </div>
 
         <!--Tamaño y descripcion-->
-        <div class="col-sm-6 ">
+        <div class="col-sm-8 ">
 
             <!--Titulo-->
             <div class="row">
