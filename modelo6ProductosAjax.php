@@ -11,9 +11,8 @@ switch ($_POST['idColor6']) {
     case 0:
         $currentProduct6 = $bolsa_SPST;
         $nombreProducto6 = "Standup Pouch con Spout Transparente";
-        $imagen1_6 = "img/productos/SUP-Negra.gif";
-        $imagen2_6 = "img/productos/SUP-Negra.gif";
-        $imagen3_6 = "img/productos/SUP-Negra.gif";
+        $imagen1_6 = "img/productos/Spout_Transparente.jpg";
+
         break;
 
 }

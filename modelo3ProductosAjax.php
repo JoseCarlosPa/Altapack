@@ -11,16 +11,14 @@ switch ($_POST['idColor3']) {
     case 0:
         $currentProduct3 = $plateada_fuelle;
         $nombreProducto3 = "FUELLE";
-        $imagen1_3 = "img/productos/SUP-Negra.gif";
-        $imagen2_3 = "img/productos/SUP-Negra.gif";
-        $imagen3_3 = "img/productos/SUP-Negra.gif";
+        $imagen1_3 = "img/productos/4Sellos-Plateada.gif";
+
         break;
     case 1:
         $currentProduct3 = $Kraft_fuelle;
         $nombreProducto3 = "FUELLE";
-        $imagen1_3 = "img/productos/SUP-Blanca2.gif";
-        $imagen2_3 = "img/productos/SUP-Blanca2.gif";
-        $imagen3_3 = "img/productos/SUP-Blanca2.gif";
+        $imagen1_3 = "img/productos/Fuelle_Kraft.gif";
+
         break;
 
 }

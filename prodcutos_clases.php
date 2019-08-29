@@ -143,29 +143,32 @@ $kraft_standup = new Color_objeto('Kraft', ['Mediano'], ['170mm x 250mm + 90mm d
 // -------------------------------------------------------------------------------------------------------------------
 //4 Sellos
 $blanco_4sellos = new Color_objeto('Blanco', ['Mediano', 'Grande'], ['120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
-    , ['500 gr.', '1,000 gr.'], 'POLIPROPILENO + MPET + LLDPE', '6.png');
+    , ['500 gr.', '1,000 gr.'], 'BOPPMAT + MPET + PE', '6.png');
 
 $negro_4sellos = new Color_objeto('Negro', ['Mediano', 'Grande'], ['120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
-    , ['500 gr.', '1,000 gr.'], 'POLIPROPILENO + MPET + LLDPE', '7.png');
+    , ['500 gr.', '1,000 gr.'], 'BOPPMAT + MPET + PE', '7.png');
+
+$plateado_4sellos = new Color_objeto('Plateado', ['Chico'], ['95mm x 250mm + 50mm de fondo']
+    , ['250 gr.'], 'BOPPMAT + MPET + PE', '7.png');
 // -------------------------------------------------------------------------------------------------------------------
 //Fuelle
 
 $plateada_fuelle = new Color_objeto('Plateada', ['Chica', 'Mediana', 'Grande', 'Extra Grande'], ['90mm x 250mm + 50mm', '115mm x 290mm + 70mm', '125mm x 390mm + 70mm', '170mm x 490mm + 85mm de fondo']
-    , ['250 gr.', '500 gr.', '1,000 gr.', '2,500 gr.'], 'BOPPMAT + MPET+ PE', '8.png');
+    , ['250 gr.', '500 gr.', '1,000 gr.', '2,500 gr.'], 'MPET+ PE', '8.png');
 
-$Kraft_fuelle = new Color_objeto('Kraft', ['Mediano', 'Grande'], ['120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
-    , ['500 gr.', '1,000 gr.'], 'PAPEL KRAFT + MPET + PE', '7.png');
+$Kraft_fuelle = new Color_objeto('Kraft', ['Chica','Mediano', 'Grande'], ['90mm x 240mm x 45mm','120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
+    , ['250 gr.','500 gr.', '1,000 gr.'], 'PAPEL KRAFT + MPET + PE', '7.png');
 // -------------------------------------------------------------------------------------------------------------------
 //Standup Pouch Impresa Frasco
 
 $naranja_SPIP = new Color_objeto('Naranja', ['-',], ['175mm X 245mm + 80mm']
-    , ['-'], 'PET12MY + IMPRESIÓN + PE', '8.png');
+    , ['-'], 'PET + PE', '8.png');
 
 $verde_SPIP = new Color_objeto('Verde', ['-'], ['157mm x 250mm + 70mm']
-    , ['-'], 'PET12MY + IMPRESIÓN + PE', '9.png');
+    , ['-'], 'PET + PE', '9.png');
 
 $negra_SPIP = new Color_objeto('Negra', ['-'], ['169mm x 250mm + 70mm']
-    , ['-'], 'PET12MY + IMPRESIÓN + PE', '10.png');
+    , ['-'], 'PET + PE', '10.png');
 // -------------------------------------------------------------------------------------------------------------------
 //Standup Pouch con Spout
 

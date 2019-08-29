@@ -11,16 +11,19 @@ switch ($_POST['idColor2']) {
     case 0:
         $currentProduct2 = $blanco_4sellos;
         $nombreProducto2 = "4 SELLOS";
-        $imagen1_2 = "img/productos/SUP-Negra.gif";
-        $imagen2_2 = "img/productos/SUP-Negra.gif";
-        $imagen3_2 = "img/productos/SUP-Negra.gif";
+        $imagen1_2 = "img/productos/4Sellos-Blanco.gif";
+
         break;
     case 1:
         $currentProduct2 = $negro_4sellos;
         $nombreProducto2 = "4 SELLOS";
-        $imagen1_2 = "img/productos/SUP-Blanca2.gif";
-        $imagen2_2 = "img/productos/SUP-Blanca2.gif";
-        $imagen3_2 = "img/productos/SUP-Blanca2.gif";
+        $imagen1_2 = "img/productos/4Sellos-Negros.gif";
+
+        break;
+    case 2:
+        $currentProduct2 = $plateado_4sellos;
+        $nombreProducto2 = "4 SELLOS";
+        $imagen1_2 = "img/productos/4Sellos-Plateada.gif";
         break;
 
 }
@@ -71,6 +74,7 @@ echo '
                     <select class="form-control" id ="color2" onchange="actualizarProducto2()">
                         <option value="0">Blanco</option>
                         <option value="1">Negro</option>
+                        <option value="2">Plateada</option>
                        
                     </select>
                 </div>

@@ -11,23 +11,18 @@ switch ($_POST['idColor4']) {
     case 0:
         $currentProduct4 = $naranja_SPIP;
         $nombreProducto4 = "Standup Pouch Impresa Frasco";
-        $imagen1_4 = "img/productos/SUP-Negra.gif";
-        $imagen2_4 = "img/productos/SUP-Negra.gif";
-        $imagen3_4 = "img/productos/SUP-Negra.gif";
+        $imagen1_4 = "img/productos/Bolsa-Bote-Naranja.gif";
         break;
     case 1:
         $currentProduct4 = $verde_SPIP;
         $nombreProducto4 = "Standup Pouch Impresa Frasco";
-        $imagen1_4 = "img/productos/SUP-Blanca2.gif";
-        $imagen2_4 = "img/productos/SUP-Blanca2.gif";
-        $imagen3_4 = "img/productos/SUP-Blanca2.gif";
+        $imagen1_4 = "img/productos/Bolsa-Bote-Verde.gif";
+
         break;
     case 2:
         $currentProduct4 = $negra_SPIP;
         $nombreProducto4 = "Standup Pouch Impresa Frasco";
-        $imagen1_4 = "img/productos/SUP-Plateada.gif";
-        $imagen2_4 = "img/productos/SUP-Plateada.gif";
-        $imagen3_4 = "img/productos/SUP-Plateada.gif";
+        $imagen1_4 = "img/productos/Bolsa-Bote-Negro.gif";
         break;
 
 }
