@@ -90,7 +90,7 @@ echo '
             <div class="row">
                 <div class="col-sm-11 text-right">
                     <p>
-                        <button class="boton_publicidad">Mas informacion</button>
+                       <a href ="info.php"> <button class="boton_publicidad">Mas informacion</button></a>
                     </p>
                 </div>
             </div>

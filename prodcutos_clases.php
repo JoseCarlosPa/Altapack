@@ -1,6 +1,7 @@
 <?php
 
-class Color_objeto
+class
+Color_objeto
 {
 
     //Variables tipo string de la clase bolsa
@@ -182,15 +183,16 @@ $bolsa_SPST = new Color_objeto('-', ['Chica', 'Mediana', 'Grande', 'Extra Grande
 // -------------------------------------------------------------------------------------------------------------------
 //3 Sellos
 $plateada_3sellos = new Color_objeto('Plateada', ['Chica', 'Mediano'], ['10cm x 12cm', '12cm x 18cm']
-    , ['-', '-'], 'MPET + PE', '13.png');
+    , ['40 gr .', '60 gr .'], 'Estructura: MPET + PE', '13.png');
 // -------------------------------------------------------------------------------------------------------------------
 //Standup Pouch sin Zipper
 $plateada_SPZ = new Color_objeto('Plateada', ['Grande'], ['200mm x 320mm + 110mm de fondo']
-    , ['1,000 gr.'], 'PET + METPET + WHITEPE', '14.png');
+    , ['1,000 gr.'], 'Estructura: MPET + PE', '14.png');
 // -------------------------------------------------------------------------------------------------------------------
 //Standup Pouch con Ventana
-$bolsa_SPV = new Color_objeto('-', ['Chica'], ['150mm x 220mm + 80mm de fondo']
+$bolsa_SPV = new Color_objeto('Plateado', ['Chica'], ['150mm x 220mm + 80mm de fondo']
     , ['250 gr.'], 'POLYESTER + MPET + PE', '15.png');
 // -------------------------------------------------------------------------------------------------------------------
+
 
 ?>
