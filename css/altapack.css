@@ -1,4 +1,6 @@
-
+.scroll{
+    scroll-behavior: smooth;
+}
 
 .container_info {
     margin: 0 auto;
@@ -24,7 +26,8 @@
     margin-right: auto 0;
     margin-left:auto 0;
     margin: auto;
-    width: 80%;
+    background: white;
+    width: 100%;
 }
 .text_navbar{
     margin: 0 auto;
@@ -244,7 +247,7 @@ h1{
     color: #747E80;
     font-weight: 400;
     text-align: justify;
-    line-height: 0.7em !important; 
+    line-height: 0.7em !important;
 }
 
 .font_13{
@@ -322,7 +325,7 @@ footer{
     margin-bottom: 0px; /* Added */
 }
 
-.row-bottom-margin { 
+.row-bottom-margin {
     margin-bottom:0px;
     margin-top:0px;
 }
@@ -330,7 +333,7 @@ footer{
 .my_banner_row{
     background-image: url("../img/banner2.png");
     object-fit: scale-down;
-    
+
 }
 
 .font_17{
@@ -357,96 +360,96 @@ footer{
     background-color: #F0F0F0;
 }
 
-@media screen 
- and (max-device-width: 480px) 
- and (min-device-width: 0px) 
-{ 
-    
+@media screen
+ and (max-device-width: 480px)
+ and (min-device-width: 0px)
+{
+
     #espacio{
         visibility: hidden;
         display: none
     }
-    
+
     #bigtitle1{
         visibility: visible;
         display: inline;
     }
-    
+
     #smalltitle1{
         visibility: hidden;
         display: none;
     }
-    
+
     #bigtitle2{
         visibility: visible;
         display: inline;
     }
-    
+
     #smalltitle2{
         visibility: hidden;
         display: none;
     }
-    
+
     #imagebig1{
         visibility: hidden;
         display: none;
     }
-    
+
     #imagesmall1{
-        
+
         visibility: visible;
         display: inline;
     }
-    
+
     #bigmap{
         visibility: hidden;
         display: none;
     }
-    
+
     #smallmap{
         visibility: visible;
         display: inline;
     }
-    
-    
+
+
     #footer_id {
         margin: 0 auto;
     padding-left: 2em;
     }
-    
-    
+
+
     #textomovil{
         text-align: center !important;
     }
-    
+
     #footerimg{
         width: 18em;
         height:5em;
     }
-    
-    
+
+
     #imagen_pc_movil_urban{
         display: inline;
         visibility: visible;
     }
-    
+
     #imagen_pc_web_urban{
         display: none;
     }
-    
+
     #info_urban{
         display: none;
     }
-    
+
     #carouselExampleIndicators{
         display: inline;
         visibility: visible;
     }
-    
+
     #cards_mobile{
         display: none;
     }
-    
+
     #cards_mobile2{
         display: none;
     }
@@ -471,10 +474,22 @@ footer{
         -webkit-border-radius: 11px 11px 11px 11px;
     }
 }
-
-@media screen 
- and (max-device-width: 10000px) 
+/*-------------------------Normal-----------------------*/
+@media screen
+ and (max-device-width: 10000px)
  and (min-device-width: 481px) {
+
+    #carouselExampleIndicators{
+        display: inline;
+        visibility: visible;
+    }
+    #carouselExampleControl{
+        display: none;
+    }
+    #carouselExampleControls2{
+        display: none;
+    }
+
     #textomovil {
         text-align: justify !important;
     }
@@ -532,14 +547,6 @@ footer{
     #info_urban {
         display: inline;
         visibility: visible;
-    }
-
-    #carouselExampleIndicators {
-        display: none;
-    }
-
-    .carouselExampleIndicators {
-        display: none;
     }
 
     #cards_mobile {
