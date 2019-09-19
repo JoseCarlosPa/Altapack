@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="0da71cea-dbeb-4524-8e1d-6d90114a8498" name="Default Changelist" comment="" />
 =======
     <list default="true" id="0da71cea-dbeb-4524-8e1d-6d90114a8498" name="Default Changelist" comment="">
@@ -20,6 +21,9 @@
       <change beforePath="$PROJECT_DIR$/prodcutos_clases.php" beforeDir="false" afterPath="$PROJECT_DIR$/prodcutos_clases.php" afterDir="false" />
     </list>
 >>>>>>> productos-clases
+=======
+    <list default="true" id="0da71cea-dbeb-4524-8e1d-6d90114a8498" name="Default Changelist" comment="" />
+>>>>>>> master
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +35,7 @@
       <executable />
     </execution>
   </component>
+<<<<<<< HEAD
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -45,6 +50,8 @@
     <expand />
     <select />
   </component>
+=======
+>>>>>>> master
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -70,7 +77,14 @@
       </branch-storage>
     </favorite-branches>
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1OYd9QOHsCrONt0bJQKEP8OwlvZ" />
+=======
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectId" id="1QeIsJ7HyJK3oeLD5DmakGIHje7" />
+>>>>>>> master
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -79,7 +93,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -91,10 +105,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/productos" />
       <recent name="$PROJECT_DIR$/img/fondos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$" />
+=======
+>>>>>>> master
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
@@ -127,6 +145,7 @@
       <workItem from="1563025780611" duration="1365000" />
       <workItem from="1563120534688" duration="3639000" />
       <workItem from="1563204274893" duration="3640000" />
+<<<<<<< HEAD
       <workItem from="1563239628770" duration="11801000" />
       <workItem from="1563499567126" duration="249000" />
       <workItem from="1563628682958" duration="25000" />
@@ -138,6 +157,14 @@
       <workItem from="1564500969167" duration="88000" />
       <workItem from="1565101696113" duration="4164000" />
       <workItem from="1565188343754" duration="5846000" />
+=======
+      <workItem from="1563239628770" duration="7150000" />
+      <workItem from="1568124843050" duration="206000" />
+      <workItem from="1568126658241" duration="477000" />
+      <workItem from="1568210302153" duration="169000" />
+      <workItem from="1568212550345" duration="114000" />
+      <workItem from="1568740456951" duration="732000" />
+>>>>>>> master
     </task>
     <task id="LOCAL-00001" summary="Se agrego el nav bar y se corrigo los colores&#10;falta corregir el orden y las fuentes">
       <created>1560654828483</created>
@@ -158,6 +185,7 @@
         <entry key="1">
           <value>
             <State>
+<<<<<<< HEAD
               <option name="COLUMN_ORDER">
                 <list>
                   <option value="0" />
@@ -208,6 +236,9 @@
                   <option value="3" />
                 </list>
               </option>
+=======
+              <option name="COLUMN_ORDER" />
+>>>>>>> master
             </State>
           </value>
         </entry>
