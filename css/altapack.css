@@ -1,4 +1,5 @@
-.scroll{
+
+html {
     scroll-behavior: smooth;
 }
 
