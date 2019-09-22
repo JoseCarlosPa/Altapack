@@ -1,4 +1,7 @@
-
+.back{
+    background-image: url("../img/Background.png");
+    background-size: 100%;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -411,11 +414,8 @@ and (min-device-width: 0px)
         visibility: visible;
         display: inline;
     }
-
-
-    #footer_id {
-        margin: 0 auto;
-        padding-left: 2em;
+    #footer_text{
+        color: white;
     }
 
 
