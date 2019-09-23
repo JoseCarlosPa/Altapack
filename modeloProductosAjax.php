@@ -36,13 +36,6 @@ switch ($_POST['idColor']) {
       $imagen2 = "img/productos/SUP-Dorada.gif";
       $imagen3 = "img/productos/SUP-Dorada.gif";
       break;
-  case 4:
-      $currentProduct = $kraft_standup;
-      $nombreProducto = "BOLSA STANDUP POUCH";
-      $imagen1 = "img/productos/SUP-Kraft.gif";
-      $imagen2 = "img/productos/SUP-Kraft.gif";
-      $imagen3 = "img/productos/SUP-Kraft.gif";
-      break;
 }
 
 echo '

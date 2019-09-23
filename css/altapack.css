@@ -364,10 +364,22 @@ footer{
     background-color: #F0F0F0;
 }
 
+.web{
+    visibility: visible;
+}
+
 @media screen
 and (max-device-width: 480px)
 and (min-device-width: 0px)
 {
+
+    .web{
+        visibility: hidden;
+        display: none;
+    }
+    .movil{
+        visibility: visible;
+    }
 
     #espacio{
         visibility: hidden;
@@ -479,6 +491,10 @@ and (min-device-width: 0px)
 @media screen
 and (max-device-width: 10000px)
 and (min-device-width: 481px) {
+    .movil{
+        visibility: hidden;
+        display: none;
+    }
 
     #carouselExampleIndicators{
         display: inline;
