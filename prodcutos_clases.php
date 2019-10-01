@@ -96,6 +96,17 @@ Color_objeto
         return $option;
     }
 
+    public function imprmir_capacidad2()
+    {
+        $option = '';
+        $array = $this->get_capacidad();
+        $count = count($array);
+        for ($i = 0; $i < $count; $i++) {
+            $option .= '<option value ="'.$i.'">' . $array[$i] . '</option>';
+        }
+        return $option;
+    }
+
     public function imprmir_medidas($tamanio_bolsa) //Le llegara un parametro de tipo int del 0 a X donde 0 es chicho y X es XXL
     {
         $result = '';

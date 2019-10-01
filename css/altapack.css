@@ -27,17 +27,23 @@ html {
 }
 
 .navbar_altapack{
-    margin-right: auto 0;
-    margin-left:auto 0;
-    margin: auto;
+
     background: white;
     width: 100%;
 }
 .text_navbar{
     margin: 0 auto;
-    padding-left: 55%;
+    font-size: 120%;
+    font-family: Montserrat;
     padding-right: 0%;
     text-align: left;
+}
+
+.margin1{
+    margin-left: 10%;
+}
+.margin2{
+    margin-left: 5%;
 }
 
 .navbar-collapse{

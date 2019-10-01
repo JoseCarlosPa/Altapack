@@ -66,7 +66,7 @@ echo '
             <div class="row">
                 <div class="col-sm-6 select-outline">
                     <select class="form-control" id="size2" onchange="actualizarProducto2()">'
-    .$currentProduct2->imprmir_tamanios().'
+    .$currentProduct2->imprmir_capacidad2().'
                     </select>
                 </div>
 
