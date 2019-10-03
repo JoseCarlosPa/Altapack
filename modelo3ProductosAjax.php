@@ -81,7 +81,7 @@ echo '
                     <h5>Descripcion</h5>
                     <ul>
                         <li>'.$currentProduct3->imprmir_medidas($idSize3).'</li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
-                        <li>'.$currentProduct3->imprmir_capacidad($idSize3).'</li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
+                       
                         <li>'.$currentProduct3->get_laminacion().'</li><!--Este es un atributo unico-->
                     </ul>
                 </div>

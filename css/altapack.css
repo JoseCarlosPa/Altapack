@@ -32,11 +32,10 @@ html {
     width: 100%;
 }
 .text_navbar{
-    margin: 0 auto;
-    font-size: 120%;
+    font-size: 130%;
     font-family: Montserrat;
-    padding-right: 0%;
-    text-align: left;
+    margin-right: 1%;
+    text-align: right;
 }
 
 .margin1{
@@ -56,6 +55,7 @@ html {
 .nav_text{
     font-family:Montserrat;
     font-size: 0.8em;
+    text-align: center;
 }
 
 #asunto{
