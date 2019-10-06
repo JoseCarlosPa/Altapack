@@ -10,7 +10,7 @@ $idColor = $_POST['idColor'];
 switch ($_POST['idColor']) {
   case 0:
       $currentProduct = $negro_standup;
-      $nombreProducto = "BOLSA STANDUP POUCH";
+      $nombreProducto = "BOLSA STAND UP POUCH";
       $imagen1 = "img/productos/SUP-Negra.gif";
       $imagen2 = "img/productos/SUP-Negra.gif";
       $imagen3 = "img/productos/SUP-Negra.gif";

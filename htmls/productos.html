@@ -10,6 +10,7 @@ include("prodcutos_clases.php");
  $currentProduct7 = $plateada_3sellos;
  $currentProduct8 = $plateada_SPZ;
  $currentProduct9 = $bolsa_SPV;
+ $currentProduct10 = $kraft_standup_blanco;
 
 ?>
 <br><br><br><br><br><br>
@@ -38,7 +39,7 @@ include("prodcutos_clases.php");
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">BOLSA STANDUP POUCH</p>
+            <p class="font_1">BOLSA STAND UP POUCH</p>
         </div>
     </div>
 
@@ -122,7 +123,7 @@ include("prodcutos_clases.php");
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">BOLSA STANDUP POUCH KRAFT</p>
+            <p class="font_1">BOLSA STAND UP POUCH KRAFT</p>
         </div>
     </div>
 
@@ -197,6 +198,86 @@ include("prodcutos_clases.php");
 </div>
 <!----------------------------------- FIN de primer producto KRAFT------------------------------------------------------------>
 
+<!-----------------------------------------KRAFT BLANCO-------------------------------------------------------------->
+<div class="container" id="caracteristicasAjax10">
+
+    <!--Titulo de la bolsa-->
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="font_1">BOLSA STAND UP POUCH KRAFT BLANCO</p>
+        </div>
+    </div>
+
+    <!----------Caracetristicas--------------->
+
+    <div class="row">
+
+        <!--Imagenes laterales-->
+
+
+        <!--Imagen central-->
+        <div class="col-sm-4">
+            <img src ="img/productos/KRAFT-B.png" width="80%" height="70%">
+        </div>
+
+        <!--Tamaño y descripcion-->
+        <div class="col-sm-8 ">
+
+            <!--Titulo-->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <h5>Tamaños Disponibles</h5>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Colores</h5>
+                </div>
+            </div>
+
+            <!--Select-->
+            <div class="row">
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="size10" onchange="actualizarProducto10()">
+                        <?php echo  $currentProduct10->imprmir_capacidad2()?>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 select-outline">
+                    <select class="form-control" id ="color10" onchange="actualizarProducto10()">
+                        <option value="0">Blanco</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <!--Descripcio-->
+            <div class="row">
+                <div class="col-sm-11">
+                    <br>
+                    <h5>Descripcion</h5>
+                    <ul>
+                        <li><?php echo  $currentProduct10->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct10->get_laminacion()?></li><!--Este es un atributo unico-->
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-11 text-right">
+                    <p>
+                        <a href ="info.php"> <button class="boton_publicidad">Mas informacion</button></a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---------- FIn Caracetristicas----------------->
+
+</div>
+<!----------------------------------- FIN de KRAFT-Blanco------------------------------------------------------------>
+
 <br>
 <hr width="100%">
 <br>
@@ -207,7 +288,7 @@ include("prodcutos_clases.php");
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">4 SELLOS</p>
+            <p class="font_1">BOLSA 4 SELLOS</p>
         </div>
     </div>
 
@@ -379,7 +460,7 @@ include("prodcutos_clases.php");
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">Standup Pouch Impresa Frasco</p>
+            <p class="font_1">Stand Up Pouch Impresa</p>
         </div>
     </div>
 
@@ -419,9 +500,9 @@ include("prodcutos_clases.php");
 
                 <div class="col-sm-6 select-outline">
                     <select class="form-control" id ="color4" onchange="actualizarProducto4()">
-                        <option value="0">Naranja</option>
-                        <option value="1">Verde</option>
-                        <option value="2">Negra</option>
+                        <option value="0">Tapa naranja</option>
+                        <option value="1">Tapa verde</option>
+                        <option value="2">Tapa negra</option>
 
                     </select>
                 </div>
@@ -459,32 +540,29 @@ include("prodcutos_clases.php");
 <br>
 <hr width="100%">
 <br>
-<!-----------------------------------------Prodcuto No.5-------------------------------------------------------------->
+<!-----------------------------------------Prodcuto No.5--------------------------------------------------------------
 <div class="container" id="caracteristicasAjax5">
 
-    <!--Titulo de la bolsa-->
+
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">Standup Pouch con Spout</p>
+            <p class="font_1">Stand Up Pouch con Spout</p>
         </div>
     </div>
 
-    <!----------Caracetristicas--------------->
+
 
     <div class="row">
 
-        <!--Imagenes laterales-->
 
-
-        <!--Imagen central-->
         <div class="col-sm-4">
             <img src ="img/productos/SUP-Negra.gif" width="80%" height="70%">
         </div>
 
-        <!--Tamaño y descripcion-->
+
         <div class="col-sm-8 ">
 
-            <!--Titulo-->
+
             <div class="row">
 
                 <div class="col-sm-6">
@@ -495,7 +573,6 @@ include("prodcutos_clases.php");
                 </div>
             </div>
 
-            <!--Select-->
             <div class="row">
                 <div class="col-sm-6 select-outline">
                     <select class="form-control" id ="size5" onchange="actualizarProducto5()">
@@ -512,15 +589,14 @@ include("prodcutos_clases.php");
                 </div>
             </div>
 
-            <!--Descripcio-->
+
             <div class="row">
                 <div class="col-sm-11">
                     <br>
                     <h5>Descripcion</h5>
                     <ul>
-                        <li><?php echo  $currentProduct5->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
-                       <!--Se le debera pasar por atributo el mismo numero que el de la medida-->
-                        <li><?php echo  $currentProduct5->get_laminacion()?></li><!--Este es un atributo unico-->
+                        <li><?php echo  $currentProduct5->imprmir_medidas(0)?></li>
+                        <li><?php echo  $currentProduct5->get_laminacion()?></li>
                     </ul>
                 </div>
             </div>
@@ -536,10 +612,10 @@ include("prodcutos_clases.php");
         </div>
 
     </div>
-    <!---------- FIn Caracetristicas----------------->
+
 
 </div>
-<!----------------------------------- FIN de primer producto5------------------------------------------------------------>
+--------------------------------- FIN de primer producto5------------------------------------------------------------>
 
 <br>
 <hr width="100%">

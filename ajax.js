@@ -114,5 +114,19 @@ function actualizarProducto9(){
         });
 }
 
+function actualizarProducto10(){
+    var select = document.getElementById("color10");
+    var idColor10 = select.options[select.selectedIndex].value;
+    var select2 = document.getElementById("size10");
+    var idSize10 = select2.options[select2.selectedIndex].value;
+    $.post('modelo10ProductosAjax.php', { idColor10 : idColor10, idSize10 : idSize10 } )
+        .done(function(data){
+            $('#caracteristicasAjax10').html(data);
+            //restart Bootstrap features
+        });
+}
+
+
+
 
 

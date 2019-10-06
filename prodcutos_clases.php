@@ -152,6 +152,8 @@ $dorada_standup = new Color_objeto('Dorada', ['Chicho', 'Mediano', 'Grande'], ['
     '240mm x 340mm + 120mm de fondo'], ['250 gr.', '500 gr.', '1,000 gr.'], 'POLYESTER + MPET + + LLDPE', '4.png');
 
 $kraft_standup = new Color_objeto('Kraft', ['Mediano'], ['170mm x 250mm + 90mm de fondo'], ['454 gr.'], 'PAPEL KRAFT + MPET + LLDPE', '5.png');
+
+$kraft_standup_blanco = new Color_objeto('Kraft Blanco', ['Mediano','Grande'], ['130mm x 200m + 80mm ','150mm x 230mm + 90mm'], ['200 gr.','400 gr'], 'PAPEL KRAFT + MPET + PE ', '5.png');
 // -------------------------------------------------------------------------------------------------------------------
 //4 Sellos
 $blanco_4sellos = new Color_objeto('Blanco', ['Mediano', 'Grande'], ['120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
