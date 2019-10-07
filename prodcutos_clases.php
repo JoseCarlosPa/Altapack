@@ -70,6 +70,7 @@ Color_objeto
         return $this->laminacion;
     }
 
+
     public function set_laminiacion($laminacion)
     {
         $this->capacidad = $laminacion;
@@ -85,6 +86,18 @@ Color_objeto
         $this->imagen = $imagen;
     }
 
+    public function imprimir_laminacion($tamanio_bolsa)
+    {
+        $result = '';
+        $array = $this->get_laminacion();
+        $count = count($array);
+        for ($i = 0; $i < $count; $i++) {
+            if ($tamanio_bolsa == $i) { // Si el numero que se le pasa es igual al numero donde pasa el array
+                $result = $array[$i];  // se guardara el valor en result y se mandara imprimir
+            }
+        }
+        return $result;
+    }
     public function imprmir_tamanios()
     {
         $option = '';
@@ -206,6 +219,9 @@ $plateada_SPZ = new Color_objeto('Plateada', ['Grande'], ['200mm x 320mm + 110mm
 $bolsa_SPV = new Color_objeto('Plateado', ['Chica'], ['150mm x 220mm + 80mm de fondo']
     , ['250 gr.'], 'POLYESTER + MPET + PE', '15.png');
 // -------------------------------------------------------------------------------------------------------------------
-
+$selladora = new Color_objeto('-',['Delta Seal 250D','300 Delta','300HH'],['Longitud de sello 250 mm,
+Ancho de sello 1 mm','Longitud de sello 300 mm,Ancho de sello 1mm','Longitud de sello 300 mm, Ancho de sello 12 mm'],
+    ['Potencia 240 V/290 W/50 Hz. Dimensiones 320 X 85 X 140 (mm )','Potencia 240 V/300 W/50 Hz, Dimensiones 420 X 85 X 145 mm'
+    ,'Potencia 240 V/300 W/50 Hz, Dimensiones 420 X 85 X 145 mm'],['Peso 2.5 kg','Peso 2.75 kg.','Peso  2.75 kg'],'16.png');
 
 ?>

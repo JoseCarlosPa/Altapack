@@ -10,6 +10,8 @@ include("prodcutos_clases.php");
  $currentProduct7 = $plateada_3sellos;
  $currentProduct8 = $plateada_SPZ;
  $currentProduct9 = $bolsa_SPV;
+ $currentProduct10 = $kraft_standup_blanco;
+ $currentProduct11 = $selladora;
 
 ?>
 <br><br><br><br><br><br>
@@ -40,7 +42,7 @@ include("prodcutos_clases.php");
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">Standup Pouch con Spout Transparente</p>
+            <p class="font_1">STAND POUCH CON SPOUT TRANSPARENTE</p>
         </div>
     </div>
 
@@ -125,7 +127,7 @@ include("prodcutos_clases.php");
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">3 Sellos</p>
+            <p class="font_1">3 SELLOS</p>
         </div>
     </div>
 
@@ -210,7 +212,7 @@ include("prodcutos_clases.php");
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">Standup Pouch sin Zipper</p>
+            <p class="font_1">STAND UP POUCH SIN ZIPPER</p>
         </div>
     </div>
 
@@ -295,7 +297,7 @@ include("prodcutos_clases.php");
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">Stand Up Pouch con Ventana</p>
+            <p class="font_1">STAND UP POUCH CON VENTANA</p>
         </div>
     </div>
 
@@ -374,12 +376,12 @@ include("prodcutos_clases.php");
 <hr width="100%">
 <br>
 <!-----------------------------------------Prodcuto No.10-------------------------------------------------------------->
-<div class="container">
+<div class="container" id="caracteristicasAjax11">
 
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">Selladora Termica de Impulso</p>
+            <p class="font_1">SELLADORA TERMICA DE IMPULSO</p>
         </div>
     </div>
 
@@ -392,7 +394,7 @@ include("prodcutos_clases.php");
 
         <!--Imagen central-->
         <div class="col-sm-4">
-            <img src ="img/productos/Selladora_termica.jpg" width="80%" height="70%">
+            <img src="img/productos/Selladora_termica.jpg" width="80%" height="70%">
         </div>
 
         <!--Tamaño y descripcion-->
@@ -402,7 +404,7 @@ include("prodcutos_clases.php");
             <div class="row">
 
                 <div class="col-sm-6">
-                    <h5>Modelos</h5>
+                    <h5>Tamaños Disponibles</h5>
                 </div>
                 <div class="col-sm-6">
                     <h5>Colores</h5>
@@ -412,18 +414,14 @@ include("prodcutos_clases.php");
             <!--Select-->
             <div class="row">
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control">
-                        <option>200 HH</option>
-                        <option>250 Delta</option>
-                        <option>300 Delta</option>
-                        <option>300 HH</option>
+                    <select class="form-control" id="size11" onchange="actualizarProducto11()">
+                        <?php echo  $currentProduct11->imprmir_tamanios()?>
                     </select>
                 </div>
 
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control">
+                    <select class="form-control" id="color11" onchange="actualizarProducto11()">
                         <option value="0">-</option>
-
 
                     </select>
                 </div>
@@ -435,9 +433,9 @@ include("prodcutos_clases.php");
                     <br>
                     <h5>Descripcion</h5>
                     <ul>
-                        <li>Longitud de Sello entre 250 - 300mm</li>
-                        <li>Anchor de Sello entre 1 - 1.2mm</li>
-                        <li>Potencia 240V/250W750HZ</li>
+                        <li><?php echo  $currentProduct11->imprmir_medidas(0)?></li>
+                        <li><?php echo  $currentProduct11->imprmir_capacidad(0)?></li><!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct11->imprimir_laminacion(0)?></li><!--Este es un atributo unico-->
                     </ul>
                 </div>
             </div>
@@ -445,7 +443,9 @@ include("prodcutos_clases.php");
             <div class="row">
                 <div class="col-sm-11 text-right">
                     <p>
-                        <a href ="info.php"> <button class="boton_publicidad">Mas informacion</button></a>
+                        <a href="info.php">
+                            <button class="boton_publicidad">Mas informacion</button>
+                        </a>
                     </p>
                 </div>
             </div>

@@ -126,6 +126,18 @@ function actualizarProducto10(){
         });
 }
 
+function actualizarProducto11(){
+    var select = document.getElementById("color11");
+    var idColor11 = select.options[select.selectedIndex].value;
+    var select2 = document.getElementById("size11");
+    var idSize11 = select2.options[select2.selectedIndex].value;
+    $.post('modelo11ProductosAjax.php', { idColor11 : idColor11, idSize11 : idSize11 } )
+        .done(function(data){
+            $('#caracteristicasAjax11').html(data);
+            //restart Bootstrap features
+        });
+}
+
 
 
 

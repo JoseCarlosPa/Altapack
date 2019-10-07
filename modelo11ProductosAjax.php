@@ -2,16 +2,16 @@
 
 include("prodcutos_clases.php");
 
-$_POST['idColor10'] = htmlentities($_POST['idColor10']);
-$_POST['idSize10'] = htmlentities($_POST['idSize10']);
-$idSize10 = $_POST['idSize10'];
-$idColor10 = $_POST['idColor10'];
+$_POST['idColor11'] = htmlentities($_POST['idColor11']);
+$_POST['idSize11'] = htmlentities($_POST['idSize11']);
+$idSize11 = $_POST['idSize11'];
+$idColor11 = $_POST['idColor11'];
 
-switch ($_POST['idColor10']) {
+switch ($_POST['idColor11']) {
     case 0:
-        $currentProduct10 = $kraft_standup_blanco;
-        $nombreProducto10 = "BOLSA STAND UP POUCH KRAFT BLANCO";
-        $imagen1_10 = "img/productos/KRAFT-B.png";
+        $currentProduct11 = $selladora;
+        $nombreProducto11 = "SELLADORA TERMICA DE IMPULSO";
+        $imagen1_11 = "img/productos/Selladora_termica.jpg";
         break;
 
 
@@ -21,7 +21,7 @@ echo '
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">'.$nombreProducto10.'</p>
+            <p class="font_1">'.$nombreProducto11.'</p>
         </div>
     </div>
 
@@ -34,7 +34,7 @@ echo '
 
         <!--Imagen central-->
         <div class="col-sm-4">
-        <img src ="'.$imagen1_10.'" id="imagen1_10" width="80%" height="70%">
+        <img src ="'.$imagen1_11.'" id="imagen1_11" width="80%" height="70%">
         </div>
 
         <!--Tamaño y descripcion-->
@@ -54,14 +54,14 @@ echo '
             <!--Select-->
             <div class="row">
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id="size10" onchange="actualizarProducto10()">'
-    .$currentProduct10->imprmir_capacidad2().'
+                    <select class="form-control" id="size11" onchange="actualizarProducto11()">'
+    .$currentProduct11->imprmir_tamanios().'
                     </select>
                 </div>
 
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="color10" onchange="actualizarProducto10()">
-                       <option value="0">Blanco</option>
+                    <select class="form-control" id ="color11" onchange="actualizarProducto11()">
+                       <option value="0">-</option>
                     
                     </select>
                 </div>
@@ -73,9 +73,9 @@ echo '
                     <br>
                     <h5>Descripcion</h5>
                     <ul>
-                        <li>'.$currentProduct10->imprmir_medidas($idSize10).'</li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
-                       
-                        <li>'.$currentProduct10->get_laminacion().'</li><!--Este es un atributo unico-->
+                        <li>'.$currentProduct11->imprmir_medidas($idSize11).'</li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li>'.$currentProduct11->imprmir_capacidad($idSize11).'</li>
+                        <li>'.$currentProduct11->imprimir_laminacion($idSize11).'</li><!--Este es un atributo unico-->
                     </ul>
                 </div>
             </div>
@@ -94,9 +94,9 @@ echo '
     <!---------- FIn Caracetristicas----------------->
 
     <script>
-      $("#color10").val('.$idColor10.');
-      $("#size10").val('.$idSize10.');
-      $("#imagen1_10").fadeIn(1500);
+      $("#color11").val('.$idColor11.');
+      $("#size11").val('.$idSize11.');
+      $("#imagen1_11").fadeIn(1500);
     </script>
 ';
 

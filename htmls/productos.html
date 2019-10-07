@@ -52,7 +52,7 @@ include("prodcutos_clases.php");
 
         <!--Imagen central-->
         <div class="col-sm-4">
-            <img src ="img/productos/SUP-Negra.gif" width="80%" height="70%">
+            <img src="img/productos/SUP-Negra.gif" width="80%" height="70%">
         </div>
 
         <!--Tamaño y descripcion-->
@@ -72,13 +72,13 @@ include("prodcutos_clases.php");
             <!--Select-->
             <div class="row">
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="size" onchange="actualizarProducto()">
+                    <select class="form-control" id="size" onchange="actualizarProducto()">
                         <?php echo  $currentProduct->imprmir_capacidad2()?>
                     </select>
                 </div>
 
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="color" onchange="actualizarProducto()">
+                    <select class="form-control" id="color" onchange="actualizarProducto()">
                         <option value="0">Negra</option>
                         <option value="1">Blanco</option>
                         <option value="2">Plateada</option>
@@ -93,7 +93,8 @@ include("prodcutos_clases.php");
                     <br>
                     <h5>Descripcion</h5>
                     <ul>
-                        <li><?php echo  $currentProduct->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct->imprmir_medidas(0)?></li>
+                        <!--Se le debera pasar el atributo dependiendo del tamaño-->
 
                         <li><?php echo  $currentProduct->get_laminacion()?></li><!--Este es un atributo unico-->
                     </ul>
@@ -103,7 +104,9 @@ include("prodcutos_clases.php");
             <div class="row">
                 <div class="col-sm-11 text-right">
                     <p>
-                        <a href ="info.php"> <button class="boton_publicidad">Mas informacion</button></a>
+                        <a href="info.php">
+                            <button class="boton_publicidad">Mas informacion</button>
+                        </a>
                     </p>
                 </div>
             </div>
@@ -136,7 +139,7 @@ include("prodcutos_clases.php");
 
         <!--Imagen central-->
         <div class="col-sm-4">
-            <img src ="img/productos/SUP-Kraft.gif" width="80%" height="70%">
+            <img src="img/productos/SUP-Kraft.gif" width="80%" height="70%">
         </div>
 
         <!--Tamaño y descripcion-->
@@ -163,7 +166,7 @@ include("prodcutos_clases.php");
                 </div>
 
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control"  onchange="actualizarProducto()">
+                    <select class="form-control" onchange="actualizarProducto()">
                         <option value="0">Kraft</option>
                     </select>
                 </div>
@@ -175,7 +178,8 @@ include("prodcutos_clases.php");
                     <br>
                     <h5>Descripcion</h5>
                     <ul>
-                        <li>170mm x 250mm + 90mm de fondo</li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li>170mm x 250mm + 90mm de fondo</li>
+                        <!--Se le debera pasar el atributo dependiendo del tamaño-->
                         <li>454 gr.</li><!--Se le debera pasar por atributo el mismo numero que el de la medida-->
                         <li>PAPEL KRAFT + MPET + LLDPE</li><!--Este es un atributo unico-->
                     </ul>
@@ -185,7 +189,9 @@ include("prodcutos_clases.php");
             <div class="row">
                 <div class="col-sm-11 text-right">
                     <p>
-                        <a href ="info.php"> <button class="boton_publicidad">Mas informacion</button></a>
+                        <a href="info.php">
+                            <button class="boton_publicidad">Mas informacion</button>
+                        </a>
                     </p>
                 </div>
             </div>
@@ -217,7 +223,7 @@ include("prodcutos_clases.php");
 
         <!--Imagen central-->
         <div class="col-sm-4">
-            <img src ="img/productos/KRAFT-B.png" width="80%" height="70%">
+            <img src="img/productos/KRAFT-B.png" width="80%" height="70%">
         </div>
 
         <!--Tamaño y descripcion-->
@@ -237,13 +243,13 @@ include("prodcutos_clases.php");
             <!--Select-->
             <div class="row">
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="size10" onchange="actualizarProducto10()">
+                    <select class="form-control" id="size10" onchange="actualizarProducto10()">
                         <?php echo  $currentProduct10->imprmir_capacidad2()?>
                     </select>
                 </div>
 
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="color10" onchange="actualizarProducto10()">
+                    <select class="form-control" id="color10" onchange="actualizarProducto10()">
                         <option value="0">Blanco</option>
 
                     </select>
@@ -256,7 +262,8 @@ include("prodcutos_clases.php");
                     <br>
                     <h5>Descripcion</h5>
                     <ul>
-                        <li><?php echo  $currentProduct10->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct10->imprmir_medidas(0)?></li>
+                        <!--Se le debera pasar el atributo dependiendo del tamaño-->
                         <li><?php echo  $currentProduct10->get_laminacion()?></li><!--Este es un atributo unico-->
                     </ul>
                 </div>
@@ -265,7 +272,9 @@ include("prodcutos_clases.php");
             <div class="row">
                 <div class="col-sm-11 text-right">
                     <p>
-                        <a href ="info.php"> <button class="boton_publicidad">Mas informacion</button></a>
+                        <a href="info.php">
+                            <button class="boton_publicidad">Mas informacion</button>
+                        </a>
                     </p>
                 </div>
             </div>
@@ -301,7 +310,7 @@ include("prodcutos_clases.php");
 
         <!--Imagen central-->
         <div class="col-sm-4">
-            <img src ="img/productos/4Sellos-Blanco.gif" width="80%" height="70%">
+            <img src="img/productos/4Sellos-Blanco.gif" width="80%" height="70%">
         </div>
 
         <!--Tamaño y descripcion-->
@@ -321,13 +330,13 @@ include("prodcutos_clases.php");
             <!--Select-->
             <div class="row">
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="size2" onchange="actualizarProducto2()">
+                    <select class="form-control" id="size2" onchange="actualizarProducto2()">
                         <?php echo  $currentProduct2->imprmir_capacidad2()?>
                     </select>
                 </div>
 
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="color2" onchange="actualizarProducto2()">
+                    <select class="form-control" id="color2" onchange="actualizarProducto2()">
                         <option value="0">Blanco</option>
                         <option value="1">Negra</option>
                         <option value="2">Plateada</option>
@@ -342,7 +351,8 @@ include("prodcutos_clases.php");
                     <br>
                     <h5>Descripcion</h5>
                     <ul>
-                        <li><?php echo  $currentProduct2->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct2->imprmir_medidas(0)?></li>
+                        <!--Se le debera pasar el atributo dependiendo del tamaño-->
                         <!--Se le debera pasar por atributo el mismo numero que el de la medida-->
                         <li><?php echo  $currentProduct2->get_laminacion()?></li><!--Este es un atributo unico-->
                     </ul>
@@ -352,7 +362,9 @@ include("prodcutos_clases.php");
             <div class="row">
                 <div class="col-sm-11 text-right">
                     <p>
-                        <a href ="info.php"> <button class="boton_publicidad">Mas informacion</button></a>
+                        <a href="info.php">
+                            <button class="boton_publicidad">Mas informacion</button>
+                        </a>
                     </p>
                 </div>
             </div>
@@ -387,7 +399,7 @@ include("prodcutos_clases.php");
 
         <!--Imagen central-->
         <div class="col-sm-4">
-            <img src ="img/productos/4Sellos-Plateada.gif" width="80%" height="70%">
+            <img src="img/productos/4Sellos-Plateada.gif" width="80%" height="70%">
         </div>
 
         <!--Tamaño y descripcion-->
@@ -407,13 +419,13 @@ include("prodcutos_clases.php");
             <!--Select-->
             <div class="row">
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="size3" onchange="actualizarProducto3()">
+                    <select class="form-control" id="size3" onchange="actualizarProducto3()">
                         <?php echo  $currentProduct3->imprmir_capacidad2()?>
                     </select>
                 </div>
 
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="color3" onchange="actualizarProducto3()">
+                    <select class="form-control" id="color3" onchange="actualizarProducto3()">
                         <option value="0">Plateado</option>
                         <option value="1">Kraft</option>
 
@@ -427,7 +439,8 @@ include("prodcutos_clases.php");
                     <br>
                     <h5>Descripcion</h5>
                     <ul>
-                        <li><?php echo  $currentProduct3->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct3->imprmir_medidas(0)?></li>
+                        <!--Se le debera pasar el atributo dependiendo del tamaño-->
                         <!--Se le debera pasar por atributo el mismo numero que el de la medida-->
                         <li><?php echo  $currentProduct3->get_laminacion()?></li><!--Este es un atributo unico-->
                     </ul>
@@ -437,7 +450,9 @@ include("prodcutos_clases.php");
             <div class="row">
                 <div class="col-sm-11 text-right">
                     <p>
-                        <a href ="info.php"> <button class="boton_publicidad">Mas informacion</button></a>
+                        <a href="info.php">
+                            <button class="boton_publicidad">Mas informacion</button>
+                        </a>
                     </p>
                 </div>
             </div>
@@ -460,7 +475,7 @@ include("prodcutos_clases.php");
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">Stand Up Pouch Impresa</p>
+            <p class="font_1">STAND UP POUCH IMPRESA</p>
         </div>
     </div>
 
@@ -473,7 +488,7 @@ include("prodcutos_clases.php");
 
         <!--Imagen central-->
         <div class="col-sm-4">
-            <img src ="img/productos/Bolsa-Bote-Naranja.gif" width="80%" height="70%">
+            <img src="img/productos/Bolsa-Bote-Naranja.gif" width="80%" height="70%">
         </div>
 
         <!--Tamaño y descripcion-->
@@ -493,13 +508,13 @@ include("prodcutos_clases.php");
             <!--Select-->
             <div class="row">
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="size4" onchange="actualizarProducto4()">
+                    <select class="form-control" id="size4" onchange="actualizarProducto4()">
                         <?php echo  $currentProduct4->imprmir_capacidad2()?>
                     </select>
                 </div>
 
                 <div class="col-sm-6 select-outline">
-                    <select class="form-control" id ="color4" onchange="actualizarProducto4()">
+                    <select class="form-control" id="color4" onchange="actualizarProducto4()">
                         <option value="0">Tapa naranja</option>
                         <option value="1">Tapa verde</option>
                         <option value="2">Tapa negra</option>
@@ -514,7 +529,8 @@ include("prodcutos_clases.php");
                     <br>
                     <h5>Descripcion</h5>
                     <ul>
-                        <li><?php echo  $currentProduct4->imprmir_medidas(0)?></li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
+                        <li><?php echo  $currentProduct4->imprmir_medidas(0)?></li>
+                        <!--Se le debera pasar el atributo dependiendo del tamaño-->
                         <!--Se le debera pasar por atributo el mismo numero que el de la medida-->
                         <li><?php echo  $currentProduct4->get_laminacion()?></li><!--Este es un atributo unico-->
                     </ul>
@@ -524,7 +540,9 @@ include("prodcutos_clases.php");
             <div class="row">
                 <div class="col-sm-11 text-right">
                     <p>
-                        <a href ="info.php"> <button class="boton_publicidad">Mas informacion</button></a>
+                        <a href="info.php">
+                            <button class="boton_publicidad">Mas informacion</button>
+                        </a>
                     </p>
                 </div>
             </div>
@@ -620,7 +638,7 @@ include("prodcutos_clases.php");
 <br>
 <hr width="100%">
 <br>
-<div class ="container">
+<div class="container">
     <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
             <li class="page-item">
