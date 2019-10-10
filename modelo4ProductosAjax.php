@@ -31,7 +31,7 @@ echo '
     <!--Titulo de la bolsa-->
     <div class="row">
         <div class="col-sm-12">
-            <p class="font_1">'.$nombreProducto.'</p>
+            <p class="font_1">'.$nombreProducto4.'</p>
         </div>
     </div>
 

@@ -153,18 +153,18 @@ Color_objeto
 // -------------------------------------------------------------------------------------------------------------------
 //Stadup Pouch
 $negro_standup = new Color_objeto('Negro', ['Chico', 'Mediano'], ['150mm x 220mm + 90mm de fondo', '200mm x 260mm + 90mm de fondo']
-    , ['250 gr.', '500 gr.'], 'BOPPMAT + MPET + LLDPE', '1.png');
+    , ['250 gr.', '500 gr.'], 'BOPPMAT + MPET + PE', '1.png');
 
 $blanco_standup = new Color_objeto('Blanco', ['Chico', 'Mediano'], ['150mm x 220mm + 90mm de fondo', '200mm x 260mm + 90mm de fondo']
-    , ['250 gr.', '500 gr.'], 'BOPPMAT + MPET + LLDPE', '2.png');
+    , ['250 gr.', '500 gr.'], 'BOPPMAT + MPET + PE', '2.png');
 
 $plateada_standup = new Color_objeto('Plateada', ['Chicho', 'Mediano'], ['150mm x 210mm + 80mm de fondo', '190mm x 250mm + 90mm de fondo']
-    , ['250 gr.', '500 gr.'], 'POLYESTER + MPET + + LLDPE', '3.png');
+    , ['250 gr.', '500 gr.'], 'PET + MPET + PE', '3.png');
 
 $dorada_standup = new Color_objeto('Dorada', ['Chicho', 'Mediano', 'Grande'], ['150mm x 210mm + 80mm de fondo', '190mm x 250mm + 90mm de fondo',
-    '240mm x 340mm + 120mm de fondo'], ['250 gr.', '500 gr.', '1,000 gr.'], 'POLYESTER + MPET + + LLDPE', '4.png');
+    '240mm x 340mm + 120mm de fondo'], ['250 gr.', '500 gr.', '1 kg.'], 'PET + MPET + PE', '4.png');
 
-$kraft_standup = new Color_objeto('Kraft', ['Mediano'], ['170mm x 250mm + 90mm de fondo'], ['454 gr.'], 'PAPEL KRAFT + MPET + LLDPE', '5.png');
+$kraft_standup = new Color_objeto('Kraft', ['Mediano'], ['170mm x 250mm + 90mm de fondo'], ['454 gr.'], 'PAPEL KRAFT + MPET + PE', '5.png');
 
 $kraft_standup_blanco = new Color_objeto('Kraft Blanco', ['Mediano','Grande'], ['130mm x 200m + 80mm ','150mm x 230mm + 90mm'], ['200 gr.','400 gr'], 'PAPEL KRAFT + MPET + PE ', '5.png');
 // -------------------------------------------------------------------------------------------------------------------
@@ -181,10 +181,10 @@ $plateado_4sellos = new Color_objeto('Plateado', ['Chico'], ['95mm x 250mm + 50m
 //Fuelle
 
 $plateada_fuelle = new Color_objeto('Plateada', ['Chica', 'Mediana', 'Grande', 'Extra Grande'], ['90mm x 250mm + 50mm', '115mm x 290mm + 70mm', '125mm x 390mm + 70mm', '170mm x 490mm + 85mm de fondo']
-    , ['250 gr.', '500 gr.', '1,000 gr.', '2,500 gr.'], 'MPET+ PE', '8.png');
+    , ['250 gr.', '500 gr.', '1 kg.', '2.5 kg.'], 'MPET + PE', '8.png');
 
-$Kraft_fuelle = new Color_objeto('Kraft', ['Chica','Mediano', 'Grande'], ['90mm x 240mm x 45mm','120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
-    , ['250 gr.','500 gr.', '1,000 gr.'], 'PAPEL KRAFT + MPET + PE', '7.png');
+$Kraft_fuelle = new Color_objeto('Kraft', ['Chica','Mediano', 'Grande'], ['90mm x 240mm x 45mm','115mm x 280mm + 70mm', '140mm x 350mm + 80mm']
+    , ['250 gr.','500 gr.', '1 kg.'], 'PAPEL KRAFT + MPET + PE', '7.png');
 // -------------------------------------------------------------------------------------------------------------------
 //Standup Pouch Impresa Frasco
 
@@ -205,19 +205,19 @@ $bolsa_SPS = new Color_objeto('-', ['Chica', 'Mediana'], ['100mm x 170mm + 60mm 
 //Standup Pouch con Spout Transparente
 
 $bolsa_SPST = new Color_objeto('-', ['Chica', 'Mediana', 'Grande', 'Extra Grande', 'XXL'], ['-', '-', '-', '-', '-']
-    , ['250 ml.', '500 ml.', '1 L', '2 Lts', '3 Lts'], 'POLYESTER  + NYLON  + LLDPE', '12.png');
+    , ['250 ml.', '500 ml.', '1 L', '2 Lts', '3 Lts'], 'POLYESTER  + NYLON  + PE', '12.png');
 // -------------------------------------------------------------------------------------------------------------------
 //3 Sellos
 $plateada_3sellos = new Color_objeto('Plateada', ['Chica', 'Mediano'], ['10cm x 12cm', '12cm x 18cm']
-    , ['40 gr .', '60 gr .'], 'Estructura: MPET + PE', '13.png');
+    , ['40 gr .', '60 gr .'], 'MPET + PE', '13.png');
 // -------------------------------------------------------------------------------------------------------------------
 //Standup Pouch sin Zipper
 $plateada_SPZ = new Color_objeto('Plateada', ['Grande'], ['200mm x 320mm + 110mm de fondo']
-    , ['1,000 gr.'], 'Estructura: MPET + PE', '14.png');
+    , ['1,000 gr.'], 'MPET + PE', '14.png');
 // -------------------------------------------------------------------------------------------------------------------
 //Standup Pouch con Ventana
 $bolsa_SPV = new Color_objeto('Plateado', ['Chica'], ['150mm x 220mm + 80mm de fondo']
-    , ['250 gr.'], 'POLYESTER + MPET + PE', '15.png');
+    , ['250 gr.'], 'POLYESTER MPET + PE', '15.png');
 // -------------------------------------------------------------------------------------------------------------------
 $selladora = new Color_objeto('-',['Delta Seal 250D','300 Delta','300HH'],['Longitud de sello 250 mm,
 Ancho de sello 1 mm','Longitud de sello 300 mm,Ancho de sello 1mm','Longitud de sello 300 mm, Ancho de sello 12 mm'],

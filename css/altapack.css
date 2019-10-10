@@ -32,7 +32,7 @@ html {
     width: 100%;
 }
 .text_navbar{
-    font-size: 130%;
+    font-size: 170%;
     font-family: Montserrat;
     margin-right: 1%;
     text-align: right;
@@ -319,7 +319,9 @@ h1{
 }
 
 .publicidad{
-    background: url(../img/Base.svg) no-repeat center top;
+    background-image: url('../img/Base.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 
