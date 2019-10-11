@@ -3,7 +3,7 @@
 <head>
     <!--Icono de barra en buscador-->
 
-    <link rel="shortcut icon" href="/img/logo.ico"/>
+    <link rel="shortcut icon" href="/img/Favicon.png"/>
 
     <!--Import bootsrap.css-->
 
@@ -21,6 +21,81 @@
 
     <title>Altapack</title>
 </head>
+
+<script>
+    function mostrar_indicador1(){
+        if( document.getElementById('boton').style.color == "#07BABD" )
+            document.getElementById('boton').style.color = "grey";
+        else
+            document.getElementById('boton').style.color = "#07BABD";
+        document.getElementById('nos1').style.color = "grey";
+        document.getElementById('cliente1').style.color = "grey";
+        document.getElementById('catlogo1').style.color = "grey";
+        document.getElementById('servicio1').style.color = "grey";
+        document.getElementById('contacto1').style.color = "grey";
+
+    }
+    function mostrar_indicador2(){
+        if( document.getElementById('nos1').style.color == "#07BABD" )
+            document.getElementById('nos1').style.color = "grey";
+        else
+            document.getElementById('nos1').style.color = "#07BABD";
+        document.getElementById('boton').style.color = "grey";
+        document.getElementById('cliente1').style.color = "grey";
+        document.getElementById('catlogo1').style.color = "grey";
+        document.getElementById('servicio1').style.color = "grey";
+        document.getElementById('contacto1').style.color = "grey";
+
+    }
+    function mostrar_indicador3(){
+        if( document.getElementById('cliente1').style.color == "#07BABD" )
+            document.getElementById('cliente1').style.color = "grey";
+        else
+            document.getElementById('cliente1').style.color = "#07BABD";
+        document.getElementById('boton').style.color = "grey";
+        document.getElementById('nos1').style.color = "grey";
+        document.getElementById('catlogo1').style.color = "grey";
+        document.getElementById('servicio1').style.color = "grey";
+        document.getElementById('contacto1').style.color = "grey";
+
+    }
+    function mostrar_indicador4(){
+        if( document.getElementById('catlogo1').style.color == "#07BABD" )
+            document.getElementById('catlogo1').style.color = "grey";
+        else
+            document.getElementById('catlogo1').style.color = "#07BABD";
+        document.getElementById('boton').style.color = "grey";
+        document.getElementById('nos1').style.color = "grey";
+        document.getElementById('cliente1').style.color = "grey";
+        document.getElementById('servicio1').style.color = "grey";
+        document.getElementById('contacto1').style.color = "grey";
+
+    }
+    function mostrar_indicador5(){
+        if( document.getElementById('servicio1').style.color == "#07BABD" )
+            document.getElementById('servicio1').style.color = "grey";
+        else
+            document.getElementById('servicio1').style.color = "#07BABD";
+        document.getElementById('boton').style.color = "grey";
+        document.getElementById('nos1').style.color = "grey";
+        document.getElementById('cliente1').style.color = "grey";
+        document.getElementById('catlogo1').style.color = "grey";
+        document.getElementById('contacto1').style.color = "grey";
+
+    }
+    function mostrar_indicador6(){
+        if( document.getElementById('contacto1').style.color == "#07BABD" )
+            document.getElementById('contacto1').style.color = "grey";
+        else
+            document.getElementById('contacto1').style.color = "#07BABD";
+        document.getElementById('boton').style.color = "grey";
+        document.getElementById('nos1').style.color = "grey";
+        document.getElementById('cliente1').style.color = "grey";
+        document.getElementById('catlogo1').style.color = "grey";
+        document.getElementById('servicio1').style.color = "grey";
+
+    }
+</script>
 <!--Barra de navegacion-->
 
 <nav class="navbar navbar-expand-lg navbar-light navbar_altapack fixed-top bb">
@@ -37,42 +112,45 @@
     <div class="collapse navbar-collapse text_navbar margin2" id="navbarNavDropdown">
         <ul class="navbar-nav nav_text">
             <li class="nav-item">
-                <a class="nav-link left" href="index.php#inicio">INICIO <span class="sr-only">(current)</span></a>
+                <a class="nav-link left" href="index.php#inicio" id ="boton" onclick="mostrar_indicador1()">INICIO <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link scroll"> | </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link scroll" href="index.php#nosotros">NOSOTROS </a>
+                <a class="nav-link scroll" href="index.php#nosotros" id="nos1" onclick="mostrar_indicador2()">NOSOTROS </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link scroll"> | </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link scroll" href="index.php#clientes"> CLIENTES </a>
+                <a class="nav-link scroll" href="index.php#clientes" id="cliente1" onclick="mostrar_indicador3()"> CLIENTES </a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link scroll"> | </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="productos.php">CATÁLOGO </a>
+                <a class="nav-link" href="productos.php" id="catlogo1" onclick="mostrar_indicador4()">CATÁLOGO </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link scroll"> | </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php#servicios">SERVICIOS </a>
+                <a class="nav-link" href="index.php#servicios" id="servicio1" onclick="mostrar_indicador5()">SERVICIOS </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link scroll"> | </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php#contacto">CONTACTO</a>
+                <a class="nav-link" href="index.php#contacto" id="contacto1" onclick="mostrar_indicador6()">CONTACTO</a>
             </li>
         </ul>
     </div>
 </nav>
+
+
+
 
 
 

@@ -71,8 +71,8 @@ echo '
 
                 <div class="col-sm-6 select-outline">
                     <select class="form-control" id ="color4" onchange="actualizarProducto4()">
-                       <option value="0">Naranja</option>
-                        <option value="1">Verde</option>
+                       <option value="0">Roja</option>
+                        <option value="1">Plateada</option>
                         <option value="2">Negra</option>
                     </select>
                 </div>

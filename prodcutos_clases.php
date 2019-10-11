@@ -170,10 +170,10 @@ $kraft_standup_blanco = new Color_objeto('Kraft Blanco', ['Mediano','Grande'], [
 // -------------------------------------------------------------------------------------------------------------------
 //4 Sellos
 $blanco_4sellos = new Color_objeto('Blanco', ['Mediano', 'Grande'], ['120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
-    , ['500 gr.', '1,000 gr.'], 'BOPPMAT + MPET + PE', '6.png');
+    , ['500 gr.', '1 kg.'], 'BOPPMAT + MPET + PE', '6.png');
 
 $negro_4sellos = new Color_objeto('Negro', ['Mediano', 'Grande'], ['120mm x 300mm + 80mm de fondo', '140mm x 390mm + 95mm de fondo']
-    , ['500 gr.', '1,000 gr.'], 'BOPPMAT + MPET + PE', '7.png');
+    , ['500 gr.', '1 kg.'], 'BOPPMAT + MPET + PE', '7.png');
 
 $plateado_4sellos = new Color_objeto('Plateado', ['Chico'], ['95mm x 250mm + 50mm de fondo']
     , ['250 gr.'], 'BOPPMAT + MPET + PE', '7.png');
@@ -213,15 +213,15 @@ $plateada_3sellos = new Color_objeto('Plateada', ['Chica', 'Mediano'], ['10cm x 
 // -------------------------------------------------------------------------------------------------------------------
 //Standup Pouch sin Zipper
 $plateada_SPZ = new Color_objeto('Plateada', ['Grande'], ['200mm x 320mm + 110mm de fondo']
-    , ['1,000 gr.'], 'MPET + PE', '14.png');
+    , ['1 kg.'], 'MPET + PE', '14.png');
 // -------------------------------------------------------------------------------------------------------------------
 //Standup Pouch con Ventana
 $bolsa_SPV = new Color_objeto('Plateado', ['Chica'], ['150mm x 220mm + 80mm de fondo']
     , ['250 gr.'], 'POLYESTER MPET + PE', '15.png');
 // -------------------------------------------------------------------------------------------------------------------
-$selladora = new Color_objeto('-',['Delta Seal 250D','300 Delta','300HH'],['Longitud de sello 250 mm,
-Ancho de sello 1 mm','Longitud de sello 300 mm,Ancho de sello 1mm','Longitud de sello 300 mm, Ancho de sello 12 mm'],
+$selladora = new Color_objeto('-',['Delta Seal 250D','300 Delta','300HH','200 HH'],['Longitud de sello 250 mm,
+Ancho de sello 1 mm','Longitud de sello 300 mm,Ancho de sello 1mm','Longitud de sello 300 mm, Ancho de sello 12 mm','Longitud de sello 200mm, Ancho de sello 12mm'],
     ['Potencia 240 V/290 W/50 Hz. Dimensiones 320 X 85 X 140 (mm )','Potencia 240 V/300 W/50 Hz, Dimensiones 420 X 85 X 145 mm'
-    ,'Potencia 240 V/300 W/50 Hz, Dimensiones 420 X 85 X 145 mm'],['Peso 2.5 kg','Peso 2.75 kg.','Peso  2.75 kg'],'16.png');
+    ,'Potencia 240 V/300 W/50 Hz, Dimensiones 420 X 85 X 145 mm','Potencia 240 V/300 W/50 Hz,Dimensiones 420 X 85 X 145mm.'],['Peso 2.5 kg','Peso 2.75 kg.','Peso  2.75 kg','Peso 2.75Kg.'],'16.png');
 
 ?>
