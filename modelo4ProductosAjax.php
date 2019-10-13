@@ -16,13 +16,13 @@ switch ($_POST['idColor4']) {
     case 1:
         $currentProduct4 = $verde_SPIP;
         $nombreProducto4 = "Standup Pouch Impresa Frasco";
-        $imagen1_4 = "img/productos/Bolsa-Bote-Verde.gif";
+        $imagen1_4 = "img/productos/Bolsa-Bote-Negro.gif";
 
         break;
     case 2:
         $currentProduct4 = $negra_SPIP;
         $nombreProducto4 = "Standup Pouch Impresa Frasco";
-        $imagen1_4 = "img/productos/Bolsa-Bote-Negro.gif";
+        $imagen1_4 = "img/productos/Bolsa-Bote-Verde.gif";
         break;
 
 }

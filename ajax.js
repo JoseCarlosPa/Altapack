@@ -36,6 +36,18 @@ function actualizarProducto3(){
         });
 }
 
+function actualizarProducto31(){
+    var select = document.getElementById("color31");
+    var idColor31 = select.options[select.selectedIndex].value;
+    var select2 = document.getElementById("size31");
+    var idSize31 = select2.options[select2.selectedIndex].value;
+    $.post('modelo31ProductosAjax.php', { idColor31 : idColor31, idSize31 : idSize31 } )
+        .done(function(data){
+            $('#caracteristicasAjax31').html(data);
+            //restart Bootstrap features
+        });
+}
+
 
 function actualizarProducto4(){
     var select = document.getElementById("color4");
