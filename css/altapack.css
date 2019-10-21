@@ -17,6 +17,7 @@ html {
 .container {
     margin: 0 auto;
     max-width: 60em;
+
 }
 
 
@@ -735,6 +736,7 @@ and (min-device-width: 0px) {
         display: none;
     }
 }
+
 
 /* custom radio */
 
