@@ -737,7 +737,17 @@ and (min-device-width: 0px) {
     }
 }
 
+.mision{
+    color: #303234;
+    font-size: 200%;
+    font-weight: bold;
+}
 
+.text_mision{
+    color: #747E80;
+    font-size: 100%;
+    font-weight: normal;
+}
 /* custom radio */
 
 
