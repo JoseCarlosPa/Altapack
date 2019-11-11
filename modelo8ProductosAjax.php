@@ -11,9 +11,9 @@ switch ($_POST['idColor8']) {
     case 0:
         $currentProduct8 = $plateada_SPZ;
         $nombreProducto8 = "Standup Pouch sin Zipper";
-        $imagen1_8 = "img/productos/SUP-Negra.gif";
-        $imagen2_8 = "img/productos/SUP-Negra.gif";
-        $imagen3_8 = "img/productos/SUP-Negra.gif";
+        $imagen1_8 = "img/productos/SUP-Plateada.gif";
+        $imagen2_8 = "img/productos/SUP-Plateada.gif";
+        $imagen3_8 = "img/productos/SUP-Plateada.gif";
         break;
 
 }

@@ -11,7 +11,7 @@ switch ($_POST['idColor10']) {
     case 0:
         $currentProduct10 = $kraft_standup_blanco;
         $nombreProducto10 = "BOLSA STAND UP POUCH KRAFT BLANCO";
-        $imagen1_10 = "img/productos/KRAFT-B.png";
+        $imagen1_10 = "img/productos/SUP-Blanca.gif";
         break;
 
 
