@@ -76,7 +76,7 @@ echo '
                     <ul>
                         <li>'.$currentProduct9->imprmir_medidas($idSize9).'</li> <!--Se le debera pasar el atributo dependiendo del tamaño-->
                         <!--Se le debera pasar por atributo el mismo numero que el de la medida-->
-                        <li>'.$currentProduct9->get_laminacion().'</li><!--Este es un atributo unico-->
+                        <li>'.$currentProduct9->get_laminacion(). '</li><!--Este es un atributo unico-->
                     </ul>
                 </div>
             </div>
@@ -95,7 +95,7 @@ echo '
     <!---------- FIn Caracetristicas----------------->
 
     <script>
-      $("#color9").val('.$idColor9.');
+      $("#color9").val(' .$idColor9.');
       $("#size9").val('.$idSize9.');
       $("#imagen1_9").fadeIn(1500);
       $("#imagen2_9").fadeIn(1500);
